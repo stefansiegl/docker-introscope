@@ -14,7 +14,7 @@ It goes without saying that you need docker installed. If you are on Windows (li
 ## Building the image
 Fire up docker (or like in my case boot2docker), navigate to the project and execute the 
 ```
-build.sh
+build-image.sh
 ```
 file.
 
