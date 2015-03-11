@@ -12,7 +12,11 @@ The docker image needs the installation files from CA Wily Introscope. Simply co
 It goes without saying that you need docker installed. If you are on Windows (like me) or Mac, you can use boot2docker - I works perfectly for me.
 
 ## Building the image
-Fire up docker (or like in my case boot2docker), navigate to the project and execute the build.sh file.
+Fire up docker (or like in my case boot2docker), navigate to the project and execute the 
+```
+build.sh
+```
+file.
 
 ## Starting the image
 If you just want the easiest solution, simply start the enterprise manager by
@@ -26,7 +30,7 @@ docker run -d --name introscope-em --link introscope-db:db stefansiegl/introscop
 
 ## Persisting data
 The image is configured persist some important folders, so that changes are persisted when you stop the container and start it again. (check the volume definitions in the dockerfile)
-If you like you can also map local folders, but I dont like this approach as this hinders portability.
+If you like you can also map local folders, but I dont like this approach as this hinders portability. (just have a look inside the Dockerfile and bind the folders that you need)
 
 ## Locking at the logs
 As I said I do not like to map the logfiles to my host. docker is great at providing access to them already. What I usually do is to connect to the container with either
@@ -40,4 +44,4 @@ docker exec -it em bash
 
 ## Default values
 Check the checked-in response file for the default settings the introscope enterprise manager is installed with and adapt it to your needs. 
-Please note that the database settings are set in a way that this image is interoperable with stefansiegl/introscope-postgres, so be careful when changing this.
+Please note that the database settings are set in a way that this image is interoperable with stefansiegl/introscope-postgres, so be careful when changing this. Especially note that the file write DATABASE_URL for the database. This string is replaced during startup of the enterprise manager and substituted by the linked stefansiegl/introscope-postgres container.
