@@ -21,7 +21,7 @@ RUN chmod +x startup.sh
 RUN java -jar introscope9.6.0.0otherUnix.jar -f SampleResponseFile.Introscope.txt
 
 # we expect to have a license file that we can copy to the server. 
-ADD license.lic /root/Introscope9.6.0.0/license
+ADD license.lic /root/Introscope9.6.0.0/license/license.lic
 
 # Port used by Enterprise Manager to listen for incoming connections.
 EXPOSE 5001
