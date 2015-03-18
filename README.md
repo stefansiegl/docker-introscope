@@ -28,6 +28,20 @@ This image is expected to be connected to a container of stefansiegl/introscope-
 docker run -d --name introscope-em --link introscope-db:db stefansiegl/introscope-em:9.6.0.0
 ```
 
+## Access to management modules
+There are two ways to manage management modules with this image. The quick (and dirty) approach is to "mount" a local folder that is then used as management module folder. Drawback of this approach is, that the local folder overwrites the management module folder of the enterprise manager. So you need to place the out-of-the-box management modules in this folder as well. 
+```
+docker run -d --name introscope-em --link introscope-db:db -v [localfolder]:/root/Introscope9.6.0.0/config/modules stefansiegl/introscope-em:9.6.0.0
+```
+
+The second approach allows to add management modules to the existing config/modules folder. The startup script of the container ensures that all files that are within /transfer/modules (in the container) are copied to the config/modules folder. Thus you could keep the management modules you want to integrate locally in a folder and run the container like this (note that the management modules you copied to the container are persisted):
+```
+docker run -d --name introscope-em --link introscope-db:db -v [localfolder_containing_MM]:/transfer/modules stefansiegl/introscope-em:9.6.0.0
+```
+
+## Installing Plugins
+The enterprise manager allows to install additional plugins. This image allows this during the build. Simply place your extensions
+
 ## Persisting data
 The image is configured persist some important folders, so that changes are persisted when you stop the container and start it again. (check the volume definitions in the dockerfile)
 If you like you can also map local folders, but I dont like this approach as this hinders portability. (just have a look inside the Dockerfile and bind the folders that you need)
