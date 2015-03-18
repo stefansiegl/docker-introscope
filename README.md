@@ -40,7 +40,7 @@ docker run -d --name introscope-em --link introscope-db:db -v [localfolder_conta
 ```
 
 ## Installing Plugins
-The enterprise manager allows to install additional plugins. This image allows this during the build. Simply place your extensions
+The enterprise manager allows to install additional plugins. This image allows this during the build. Simply place your extensions in the folder addons/em and addons/workstation. 
 
 ## Persisting data
 The image is configured persist some important folders, so that changes are persisted when you stop the container and start it again. (check the volume definitions in the dockerfile)
