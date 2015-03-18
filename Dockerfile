@@ -1,10 +1,6 @@
-FROM ubuntu
+FROM jeanblanchard/busybox-java:7
 
 MAINTAINER sieglst@googlemail.com / stefan.siegl@novatec-gmbh.de
-
-# update and install OpenJDK - Introscope works fine for us with this JDK.
-# If you like you could also install some other jdk here.
-RUN apt-get update && apt-get install -y openjdk-7-jre
 
 WORKDIR /opt/introscope-install
 
@@ -15,6 +11,8 @@ COPY osgiPackages.v9.6.0.0.unix.tar /opt/introscope-install/osgiPackages.v9.6.0.
 ADD eula-osgi/eula.txt /opt/introscope-install/eula-osgi/eula.txt
 ADD eula-introscope/ca-eula.txt /opt/introscope-install/eula-introscope/ca-eula.txt
 ADD startup.sh /opt/introscope-install/startup.sh
+ADD addons /opt/introscope-install/addons
+
 RUN chmod +x startup.sh
 
 # run the installation of the enterprise manager
@@ -30,8 +28,6 @@ EXPOSE 8081
 # Port on which WebView will listen for HTTP connections. 
 EXPOSE 8080
 
-# define volumes to persist these folders over restarts of the container
-VOLUME /root/Introscope9.6.0.0/config
 VOLUME /root/Introscope9.6.0.0/data
 VOLUME /root/Introscope9.6.0.0/traces
 
