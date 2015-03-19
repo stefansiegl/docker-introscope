@@ -42,6 +42,18 @@ docker run -d --name introscope-em --link introscope-db:db -v [localfolder_conta
 ## Installing Plugins
 The enterprise manager allows to install additional plugins. This image allows this during the build. Simply place your extensions in the folder addons/em and addons/workstation. 
 
+## Additional configuration with environment variables
+Additional configuration is possible with environment variables. This image currently supports the following:
+
+ENV | description | default | example
+---|---|---|---|
+HEAP_XMX | sets the xmx heap of the EM. Use typical Java notation. | 1024m | 2048m
+
+Environment variables can be set by
+```
+-e HEAP_XMX="2048m"
+```
+
 ## Persisting data
 The image is configured persist some important folders, so that changes are persisted when you stop the container and start it again. (check the volume definitions in the dockerfile)
 If you like you can also map local folders, but I dont like this approach as this hinders portability. (just have a look inside the Dockerfile and bind the folders that you need)
