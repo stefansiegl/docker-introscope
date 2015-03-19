@@ -30,5 +30,15 @@ if [ -d /transfer/license ] ; then
 	cp /transfer/license/* /root/Introscope9.6.0.0/license
 fi
 
+# configure the heap
+if [ "${HEAP_XMX}" == "**DEFAULT**" ] ; then
+	unset HEAP_XMX
+fi
+if [ -n "${HEAP_XMX}" ] ; then
+	sed -i s/Xmx1024m/Xmx${HEAP_XMX}/g /root/Introscope9.6.0.0/Introscope_Enterprise_Manager.lax
+fi
+
+
+
 # now we correctly set everything and startup the enterprise manager.
 /root/Introscope9.6.0.0/Introscope_Enterprise_Manager

@@ -21,6 +21,8 @@ RUN java -jar introscope9.6.0.0otherUnix.jar -f SampleResponseFile.Introscope.tx
 # we expect to have a license file that we can copy to the server. 
 ADD license.lic /root/Introscope9.6.0.0/license/license.lic
 
+ENV HEAP_XMX **DEFAULT**
+
 # Port used by Enterprise Manager to listen for incoming connections.
 EXPOSE 5001
 # Port used by Enterprise Manager to serve web applications.
