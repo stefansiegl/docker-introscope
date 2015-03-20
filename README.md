@@ -13,28 +13,35 @@ It goes without saying that you need docker installed. If you are on Windows (li
 
 ## Building the image
 Fire up docker (or like in my case boot2docker), navigate to the project and execute the 
+
 ```
 build-image.sh
 ```
+
 file.
 
 ## Starting the image
 If you just want the easiest solution, simply start the enterprise manager by
+
 ```
 run-default-em-container.sh
 ```
+
 This image is expected to be connected to a container of stefansiegl/introscope-postgres:9.6.0.0 that will provide the database for the enterprise manager. Furthermore, the image expects that a docker link --link is setup with the logical name being set to "db". 
+
 ```
 docker run -d --name introscope-em --link introscope-db:db stefansiegl/introscope-em:9.6.0.0
 ```
 
 ## Access to management modules
 There are two ways to manage management modules with this image. The quick (and dirty) approach is to "mount" a local folder that is then used as management module folder. Drawback of this approach is, that the local folder overwrites the management module folder of the enterprise manager. So you need to place the out-of-the-box management modules in this folder as well. 
+
 ```
 docker run -d --name introscope-em --link introscope-db:db -v [localfolder]:/root/Introscope9.6.0.0/config/modules stefansiegl/introscope-em:9.6.0.0
 ```
 
 The second approach allows to add management modules to the existing config/modules folder. The startup script of the container ensures that all files that are within /transfer/modules (in the container) are copied to the config/modules folder. Thus you could keep the management modules you want to integrate locally in a folder and run the container like this (note that the management modules you copied to the container are persisted):
+
 ```
 docker run -d --name introscope-em --link introscope-db:db -v [localfolder_containing_MM]:/transfer/modules stefansiegl/introscope-em:9.6.0.0
 ```
@@ -49,7 +56,8 @@ ENV | description | default | example
 ---|---|---|---|
 HEAP_XMX | sets the xmx heap of the EM. Use typical Java notation. | 1024m | 2048m
 
-Environment variables can be set by
+Environment variables can be set for example by
+
 ```
 -e HEAP_XMX="2048m"
 ```
@@ -60,10 +68,13 @@ If you like you can also map local folders, but I dont like this approach as thi
 
 ## Locking at the logs
 As I said I do not like to map the logfiles to my host. docker is great at providing access to them already. What I usually do is to connect to the container with either
+
 ```
 docker logs em (to see all system.out log output)
 ```
+
 or even better to simply start a shell
+
 ```
 docker exec -it em bash
 ```
