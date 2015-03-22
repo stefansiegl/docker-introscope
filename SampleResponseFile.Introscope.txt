@@ -3,7 +3,7 @@
 # Introscope Silent Installation Response File
 #
 # Sample Response File
-# CA Wily Introscope(R) Version 9.6.0.0 Release 9.6.0.0
+# CA Wily Introscope(R) Version 9.7.0 Release 9.7.0.27
 # Copyright (c) 2014 CA. All Rights Reserved.
 # Introscope(R) is a registered trademark of CA.
 #
@@ -66,14 +66,14 @@ ca-eulaFile=eula-introscope/ca-eula.txt
 # Example Unix install directory: /IntroscopeSilentInstall/
 # Left blank, this property will default to one of the following values: 
 # On Windows...
-#    C:\\Program Files\\CA APM\\Introscope9.6.0.0\\ 
+#    C:\\Program Files\\CA APM\\Introscope9.7.0.27\\ 
 #        (Exact name and drive letter of program files directory may vary 
 #        depending on OS configuration) 
 # On Unix...
-#    /root/Introscope9.6.0.0/
+#    /root/Introscope9.7.0.27/
 #        (Under the logged-in-end-user's home directory. Exact directory may vary 
 #        depending on user account.)
-USER_INSTALL_DIR=/root/Introscope9.6.0.0
+USER_INSTALL_DIR=/root/Introscope
 
 # Introscope features to install. Must be a comma-delimited list.
 # Example: Enterprise Manager,WebView,ProbeBuilder
@@ -98,7 +98,7 @@ silentInstallChosenFeatures=Enterprise Manager,WebView,ProbeBuilder
 #    Example Windows value: C:\\osgiPackages.v<x.y>.windows.zip
 #    Example Unix value:    /osgiPackages.v<x.y>.unix.tar
 #            where <x.y> should be a valid version string.
-externalComponentPackage=osgiPackages.v9.6.0.0.unix.tar
+externalComponentPackage=osgiPackages.v9.7.0.27.unix.tar
   
 # If the above chosen features list includes Enterprise Manager or WebView,  
 # specify the location of the external component library's End User  
@@ -300,13 +300,13 @@ shouldEnableCAAPMForWebLogic=false
 shouldEnableCAAPMForWebLogicPortal=false
 
 #CA APM for IBM WebSphere Application Server for Distributed Environments
-shouldEnableCAAPMForWebSphere=true
+shouldEnableCAAPMForWebSphere=false
 
 #CA APM for IBM WebSphere Portal
-shouldEnableCAAPMForWebSpherePortal=true
+shouldEnableCAAPMForWebSpherePortal=false
 
 #CA APM for IBM WebSphere MQ and IBM WebSphere Message Broker
-shouldEnableCAAPMForWebSphereMQandMB=true
+shouldEnableCAAPMForWebSphereMQandMB=false
 
 #CA APM for IBM WebSphere Application Server for z/OS	
 shouldEnableCAAPMForWebSphereZOS=false
@@ -318,7 +318,7 @@ shouldEnableCAAPMForIBMCTG=false
 shouldEnableCAAPMForIBMzOSExtension=false
 
 #CA Cross-Enterprise Application Performance Management
-shouldEnableSysview=true
+shouldEnableSysview=false
 
 #CA APM for CA SiteMinder Web Access Manager 
 shouldEnableCAAPMForSiteMinder=false
@@ -432,7 +432,7 @@ dbPassword=
 
 # For PostgreSQL DB installation on Windows platform only
 # Set the DB install script execution timeout wait time (in milliseconds)
-#dbInstallScriptTimeoutInMillis=240000
+dbInstallScriptTimeoutInMillis=240000
 
 # Set validateDatabase to true if you want to validate the existing APM database and
 # create new schema.
@@ -509,7 +509,7 @@ wvAsServiceDisplayName=Introscope WebView
 # WebView JVM. The recommended setting for the headless switch is:
 #  - false for Windows platforms
 #  - true for other UNIX and mainframe platforms
-#wvLaxNlJavaOptionAdditional=-Xms128m -Xmx512m -Djava.awt.headless=true -Dorg.owasp.esapi.resources=./config/esapi -Dsun.java2d.noddraw=true -XX:PermSize=128m -XX:MaxPermSize=256m
+#wvLaxNlJavaOptionAdditional=-Xms256m -Xmx1024m -Djava.awt.headless=false -Dorg.owasp.esapi.resources=./config/esapi -Dsun.java2d.noddraw=true -XX:PermSize=128m -XX:MaxPermSize=256m
 
 
 

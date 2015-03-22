@@ -1,7 +1,7 @@
 #/bin/sh
 
-introscopeinstallfile="introscope9.6.0.0otherUnix.jar"
-osgipackages="osgiPackages.v9.6.0.0.unix.tar"
+introscopeinstallfile=`ls *otherUnix.jar`
+osgipackages=`ls osgi*.unix.tar`
 errors=false
 
 if [ ! -e $introscopeinstallfile ] ; then
@@ -10,16 +10,11 @@ if [ ! -e $introscopeinstallfile ] ; then
 fi
 
 if [ ! -e $osgipackages ] ; then
-	echo "FATAL: File $osgipackages does not exist. Please download this from http://opensrcd.ca.com/ips/osgi/introscope_9.6.0.0/"
-	errors=true
-fi
-
-if [ ! -e license.lic ] ; then
-	echo "FATAL: Please provide a license.lic file. The EM starts without a license, so if you do not need any, just remove this line and remove the adding of the license in the dockerfile."
+	echo "FATAL: File $osgipackages does not exist. Please download this from http://opensrcd.ca.com/ips/osgi/introscope_X.Y.0.0/"
 	errors=true
 fi
 
 if [ "$errors" = false ] ; then
 	echo "Starting the build"
-	docker build -t stefansiegl/introscope-em:9.6.0.0 .
+	docker build -t stefansiegl/introscope-em .
 fi

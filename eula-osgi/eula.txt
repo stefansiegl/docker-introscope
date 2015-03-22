@@ -7,7 +7,7 @@
 # JHotDraw; JasperReports; JFreeCharts; JCommon; jxDBCon; Hibernate; jTDS; SourceForge C3PO v.0.9.1
 
 # The above-referenced libraries (collectively, the "LGPL Software") are open 
-# source software libraries that are used with the CA Wily Introscope(R) Version 9.6.0.0 
+# source software libraries that are used with the CA Wily Introscope(R) Version 9.7.0 
 # software ("Introscope"). The LGPL Software is not owned by CA, Inc. ("CA"). 
 # Use, copying, distribution and modification of the LGPL Software is governed
 # by the GNU Lesser General Public License ("LGPL") version 2.1. A copy of the
@@ -35,5 +35,5 @@
 
 # LGPL: 
 # Do you accept or reject the terms of the Lesser GNU Public License? 
-# The set of valid values for LGPL is: {accept, reject}. 
+# The set of valid values for LGPL is: {accept, reject}.
 LGPL=accept

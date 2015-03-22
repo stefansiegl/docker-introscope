@@ -4,221 +4,148 @@
 #
 ##############################################################################
 # 
-# ﻿CA, Inc. ("CA")
 # 
-# End User License Agreement (the "Agreement") for the CA software product that is being installed as well as the associated documentation and any SDK, as defined below, included within the product ("the Product").
+# ﻿CA End User License Agreement (the "Agreement") for the CA software product that is being installed as well as the associated documentation and any SDK, as defined below, included within the product ("the Product").
 # 
-# Carefully read the following terms and conditions regarding your use of the Product before installing and using the Product.  Throughout this Agreement, you will be referred to as "You" or "Licensee."  
+# Carefully read the following terms and conditions regarding your use of the Product before installing and using the Product.  Throughout this Agreement, you will be referred to as "You" or "Licensee."
 # 
-# By typing "accept" below, you are 
+# By typing "accept" below, you are
 # 
-# (I) Representing that you are not a minor, and have full legal capacity and have the authority to bind yourself and your employer, as applicable, to the terms of this Agreement; 
-# (II) Consenting on behalf of yourself and/or as an authorized representative of your employer, as applicable, to be bound by this Agreement.  
+# (I) Representing that you are not a minor, and have full legal capacity and have the authority to bind yourself and your employer, as applicable, to the terms of this Agreement;
+# (II) Consenting on behalf of yourself and/or as an authorized representative of your employer, as applicable, to be bound by this Agreement.
 # 
 # By typing "reject" below, the installation process will cease.
 # 
-# 1.  CA (or where the Product is being supplied outside of North America the CA subsidiary identified after Section 15 below for the country in which the Product is being supplied, and in such instance CA shall mean the CA subsidiary identified) provides Licensee with one copy of the Product, for use by a single user, or the quantity designated as the authorized use limitation ("Authorized Use Limitation") on any Order Form (defined below) referencing the terms of this Agreement or CD sleeve included within the Product box.  CA licenses the Product to Licensee on a non-exclusive basis, pursuant to the terms of this Agreement as well as the terms of (a) any CA Order Form or Registration Form which has been signed by Licensee and CA; or (b) a License Program Certificate which is provided by CA to Licensee, as applicable (each hereafter referred to as the "Order Form").
+# 1.  CA, Inc. (or the CA entity respectively identified after Section 15 below for the country / countries in which the Product is being supplied), (“CA�?) provides Licensee with one (1) copy of the Product, for use in accordance with such (a) quantity and (b) CA published criteria for measuring the usage of the Product (such as, but not limited to, MIPS, CPUs, tiers, servers, or users), designated as the authorized use limitation ("Authorized Use Limitation") on any Order Form (defined below) or CD sleeve included within the Product box.  CA licenses the Product to Licensee on a limited, non-exclusive, non-transferable basis only for internal business use during the Term and other terms and conditions of (a) any CA Order Form or Registration Form which has been signed or otherwise contracted between Licensee and a CA affiliate; or (b) a License Program Certificate which is provided by CA to Licensee, as applicable, referencing and incorporating the terms of this Agreement (each hereafter referred to as the "Order Form").
 # 
-# 2.  If the Product is an alpha or beta version of the program, hereinafter referred to as the "beta program" or "beta version" and not generally available to date, CA does not guarantee that the generally available release will be identical to the beta program or that the generally available release will not require reinstallation.  Licensee agrees that if it registers for support or if otherwise required by CA, Licensee shall provide CA with specific information concerning Licensee’s experiences with the operation of the Product.  Licensee agrees and acknowledges that the beta version of the Product (a) is to be used only for testing purposes and not to perform any production activities unless CA shall have otherwise approved in writing and (b) has not been tested or debugged and is experimental and that the documentation may be in draft form and will, in many cases, be incomplete.  Licensee agrees that CA makes no representations regarding the completeness, accuracy or Licensee’s use or operation of the beta version of the Product.  
-# BETA PRODUCTS ARE PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR REPRESENTATIONS OF TITLE OR NON-INFRINGEMENT. If Licensee is also a Tester of the beta version of the Product (as "Tester" is defined by the Beta Testing Agreement that was agreed to by Licensee during the registration process before obtaining the beta version of the Product), Licensee agrees that the terms of this Agreement are in addition to, and do not supersede, the terms of the Beta Testing Agreement.
+# 2.  If the Product is an alpha or beta version of the program, hereinafter referred to as the "beta program" or "beta version" and not generally available to date, CA does not guarantee that the generally available release will be identical to the beta program or that the generally available release will not require reinstallation. Licensee agrees that if it registers for support or if otherwise required by CA, Licensee shall provide CA with specific information concerning Licensee’s experiences with the operation of the Product.  Licensee agrees and acknowledges that the beta version of the Product (a) is to be used only for testing purposes and not to perform any production activities unless CA shall have otherwise approved in writing and (b) has not been tested or debugged and is experimental and that the documentation may be in draft form and will, in many cases, be incomplete.  Licensee agrees that CA makes no representations regarding the completeness, accuracy or Licensee’s use or operation of the beta version of the Product.  BETA PRODUCTS ARE PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR REPRESENTATIONS OF TITLE OR NON-INFRINGEMENT. If Licensee is also a tester of the beta version of the Product (as defined by the beta testing or pre-release testing agreement (“Beta Testing Agreement�?) that was agreed to by Licensee during the registration process before obtaining the beta version of the Product), Licensee agrees that the terms of this Agreement are in addition to, and do not supersede, the terms of the Beta Testing Agreement.
 # 
-# 3.  If the Product is being licensed on a trial or evaluation basis, Licensee agrees to use the Product solely for evaluation purposes, in accordance with the usage restrictions set forth in Section 1, for a thirty-day evaluation period unless a different period is otherwise noted (the "Trial Period").  At the end of the Trial Period, Licensee’s right to use the Product automatically expires and Licensee agrees to de-install the Product and return to CA all copies or partial copies of the Product or certify to CA in writing that all copies or partial copies of the Product have been deleted from Licensee’s computer libraries and/or storage devices and destroyed.  If Licensee desires to continue its use of the Product beyond the Trial Period, Licensee may contact CA to acquire a license to the Product for the applicable fee.  LICENSEE’S USE OF THE PRODUCT DURING THE TRIAL PERIOD IS ON AN "AS IS" BASIS WITHOUT ANY WARRANTY, AND CA DISCLAIMS ALL WARRANTIES INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AS WELL AS ANY EXPRESS WARRANTIES PROVIDED ELSEWHERE IN THIS AGREEMENT. 
+# 3.  If the Product is being licensed on a trial or evaluation basis, Licensee agrees to use the Product solely for evaluation purposes, in accordance with the usage restrictions set forth in Section 1, for a thirty-day evaluation period unless a different period is otherwise noted (the "Trial Period").  At the end of the Trial Period, Licensee’s right to use the Product automatically expires and Licensee agrees to de-install the Product and return to CA all copies or partial copies of the Product or certify to CA in writing that all copies or partial copies of the Product have been deleted from Licensee’s computer libraries and/or storage devices and destroyed.  If Licensee desires to continue its use of the Product beyond the Trial Period, Licensee may contact CA or a CA affiliate to acquire a license to the Product for the applicable fee.  LICENSEE’S USE OF THE PRODUCT DURING THE TRIAL PERIOD IS ON AN "AS IS" BASIS WITHOUT ANY WARRANTY, AND CA DISCLAIMS ALL WARRANTIES INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AS WELL AS ANY EXPRESS WARRANTIES PROVIDED ELSEWHERE IN THIS AGREEMENT.
 # 
-# 4.  If the Product includes a Software Development Kit ("SDK"), the terms and conditions of this paragraph apply solely for the use of the SDK.  The SDK may include software, APIs and associated documentation.  The SDK is provided solely for Licensee's internal use to develop software that enables the integration of third party software or hardware with the Product, or to develop software that functions with the Product, such as an agent.  Licensee’s use of the SDK is restricted solely to enhance Licensee’s internal use of the Product.  No distribution rights of any kind are granted to Licensee regarding the Product.  In addition to the limitations on use set forth in Section 8, below, Licensee may not reproduce, disclose, market, or distribute the SDK or the documentation or any applications containing any executable versions of the SDK to third parties, on the internet, or use such executables in excess of the applicable Authorized Use Limitation.  If there is a conflict between the terms of this section and the terms of any other section in this Agreement, the terms of this section will prevail solely with respect to the use of the SDK. 
+# 4.  If the Product includes a Software Development Kit ("SDK"), the terms and conditions of this paragraph apply solely for the use of the SDK.  The SDK may include software, APIs and associated documentation.  The SDK is provided solely for Licensee's internal use to develop software that enables the integration of third party software or hardware with the Product, or to develop software that functions with the Product, such as an agent.  Licensee’s use of the SDK is restricted solely to enhance Licensee’s internal use of the Product.  No distribution rights of any kind are granted to Licensee regarding the Product.  In addition to the limitations on use set forth in Section 8, below, Licensee may not reproduce, disclose, market, or distribute the SDK or the documentation or any applications containing any executable versions of the SDK to third parties, on the internet, or use such executables in excess of the applicable Authorized Use Limitation.  If there is a conflict between the terms of this section and the terms of any other section in this Agreement, the terms of this section will prevail solely with respect to the use of the SDK.
 # 
-# TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, AND NOTWITHSTANDING ANYTHING CONTAINED HEREIN TO THE CONTRARY, THE SDK IS PROVIDED AND LICENSED "AS IS" WITHOUT WARRANTY OF ANY KIND.  
+# TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, AND NOTWITHSTANDING ANYTHING CONTAINED HEREIN TO THE CONTRARY, THE SDK IS PROVIDED AND LICENSED "AS IS" WITHOUT WARRANTY OF ANY KIND.
 # 
-# 5.  Payment of the fees specified on the Order Form or as agreed between Licensee and an authorized reseller of CA, shall entitle Licensee to use the Product for the term specified on the Order Form (the "Term"), which use may include the right to receive maintenance services therefore for the period set forth on the Order Form.  All fees payable hereunder shall be payable in advance.  Licensee will install each new release of the Product delivered to Licensee.  After the Term, continued usage and/or maintenance of the Product as provided herein shall be subject to the payment by Licensee of the fees described on the Order Form.  Notwithstanding the foregoing, if the Product was licensed under this Agreement without an Order Form, Licensee shall be entitled to use the Product for an indefinite period, but the license does not include the right to receive maintenance services. Notwithstanding the foregoing, with respect to any Product that relies on continuous content updates, such as signature files and security updates, Licensee shall be entitled to such content updates for a period of one (1) year from the effective date of the license.  
+# 5.  Payment of the fees specified on the Order Form or as agreed between Licensee and an authorized reseller of CA or any of the CA affiliates, shall entitle Licensee to use the Product for the term specified on the Order Form (the "Term"), which use may include the right to receive maintenance services therefore for the period set forth on the Order Form.  All fees payable hereunder shall be payable as stated in the Order Form, or if not stated, shall be payable net thirty (30) days from the CA invoice date.  Licensee will install each new release of the Product delivered to Licensee.  After the initial Term, continued usage and/or maintenance of the Product as provided herein shall be subject to the payment by Licensee of the fees described on the Order Form.  If You are acquiring licenses of the Product from an authorized CA reseller, the terms of this Agreement governing payments, pricing and discounts shall not apply as such terms are between You and your chosen CA reseller. Any terms that may appear on a Licensee purchase order (including without limitation pre-printed terms), or as part of Licensee’s order with an authorized CA reseller, that conflict or vary from the terms and conditions of this Agreement shall not apply to the Product and shall be deemed null and void.  Notwithstanding the foregoing, with respect to any Product that relies on continuous content updates, such as signature files and security updates, Licensee shall be entitled to such content updates for a period of one (1) year from the effective date of the license.
 # 
-# 6.  If maintenance is provided by CA, it shall be renewed annually as specified in the Order form with CA.  All fees are net of applicable taxes.  Licensee agrees to pay any tariffs, duties or taxes imposed or levied by any government or governmental agency including, without limitation, federal, state and local, sales, use, value added and personal property taxes, (other than franchise and income taxes for which CA is responsible) upon a presentation of invoices by CA.  Any claimed exemption from such tariffs, duties or taxes must be supported by proper documentary evidence delivered to CA.  Any invoice which is unpaid by Licensee when due shall be subject to an interest charge equal to the lower of 1.5% per month or the highest applicable legal rate.  
+# 6.  If maintenance is provided by CA or a CA affiliate, it shall be renewed annually as specified in the Order form.  All fees are net of applicable taxes.  Licensee agrees to pay any tariffs, duties or taxes imposed or levied by any government or governmental agency including, without limitation, federal, state and local, sales, use, value added and personal property taxes, (other than franchise and income taxes for which CA is responsible) upon a presentation of invoices by CA or a CA affiliate, as applicable.  Any claimed exemption from such tariffs, duties or taxes must be supported by proper documentary evidence delivered to CA.  Any invoice which is unpaid by Licensee when due shall be subject to an interest charge equal to the lower of 1.5% per month or the highest applicable legal rate.
 # 
-# 7.  Licensee may use the Product as provided herein solely to process its own data and the data of its majority-owned subsidiaries and use is restricted to the location, computer equipment, and Authorized Use Limitation specified on the Order Form or CD sleeve, as applicable.  If Licensee desires to use the Product beyond such restrictions, it shall notify CA, and Licensee will be invoiced for and shall pay the applicable fees for such expanded use.  
+# 7.  Licensee may install and deploy the Product in the territory specified in the Order Form up to the Authorized Use Limitation.  Licensee may permit its Authorized End Users access to the Product for Licensee’s and its Affiliates’ internal business wherever located, provided that Licensee hereby expressly agrees that a breach by an Authorized End User shall be considered to be a breach by and the responsibility of Licensee.  Licensee may relocate the Product to a new Licensee location within the territory specified in the Order Form upon prior written notice. For purposes hereof, “Authorized End Users�? means Licensee, its Affiliates and their employees and independent contractors (but excluding any outsourcer, facilities management providers, managed service provider, or application service provider) that are bound by terms and conditions no less restrictive than those contained herein and are acting on behalf of Licensee and not a third party; “Affiliate�? with respect to Licensee means any legal entity in which the Licensee directly or indirectly Controls; and “Control�? means ownership or control of greater than 50% of an entity’s shares or control of the board of such entity by force of law or contract, or the equivalent. If Licensee desires to use the Product beyond such restrictions, it shall notify CA or the CA affiliate the Licensee has procured the Product from, and Licensee will be invoiced for and shall pay the applicable fees for such expanded use.
 # 
-# 8.  The Product, including any source or object code that may be provided to Licensee hereunder, as well as documentation, appearance, structure and organization, is the proprietary property of CA and/or its licensors, if any, and may be protected by copyright, patent, trademark, trade secret and/or other laws. Title to the Product, or any copy, modification, translation, partial copy, compilation, derivative work or merged portion of any applicable SDK, shall at all times remain with CA and/or its licensors.  Usage rights respecting the Product may not be exchanged for any other CA product.  The Product is licensed as a single product. Its component parts may not be separated for use.  Licensee and its employees will keep the Product and the terms of this license strictly confidential and use its best efforts to prevent and protect the Product from unauthorized disclosure or use. Licensee may not (i) disclose, de-compile, disassemble nor otherwise reverse engineer the Product except to the extent the foregoing restriction is expressly prohibited under applicable law; (ii) create any derivative works based on the Product; (iii) use the Product to provide facilities management or in connection with a service bureau or like activity whereby Licensee, without purchasing a license from CA for such purpose, operates or uses the Product for the benefit of a third party who has not purchased a copy of the Product; or (iv) permit the use of the Product by any third party without the prior written consent of CA.  Licensee shall not release the results of any benchmark testing of the Product to any third party without the prior written consent of CA.  Licensee will not transfer, assign, rent, lease, use, copy or modify the product, in whole or in part, or permit others to do any of the foregoing with regard to the Product without CA’s prior written consent, except to the extent the foregoing restriction is expressly prohibited under applicable law.  
-# Licensee will not remove any proprietary markings of CA or its licensors.  Licensee may copy the Product as reasonably required for back-up and disaster recovery purposes, provided that production use of the Product is restricted to the Authorized Use Limitation specified on the Order Form or CD sleeve, and provided that use of the Product for disaster recovery testing shall be limited to one week in any three month period.  The Product may be used only within the boundaries of the country where the Product was purchased (except as otherwise provided on the Order Form) unless CA consents otherwise in writing.  If this license terminates for any reason, Licensee shall certify to CA in writing that all copies and partial copies of the Product have been deleted from all computers and storage devices and are returned to CA or destroyed and are no longer in use.  Licensee shall comply with all relevant import and export regulations, including those adopted by the Office of Export Administration of the US Department of Commerce.  
-# The Product and any accompanying documentation have been developed entirely at private expense.  They are delivered and licensed as "commercial item" "computer software" as defined in FAR 2.101.  In the event Licensee is a U.S. Federal Government agency, the licensing terms of CA's then current GSA FSS contract shall govern use of the Computer Program(s), in lieu of the terms contained in the license delivered with the Program(s).  For such purposes, the term "Product" and "Computer Program" shall have the same meaning hereunder.  The Computer Program(s) was developed at private expense, is commercial, and is published and copyrighted. Third parties purchasing on behalf of a Federal Government agency shall only transfer the Computer Program(s) to the Government with "Restricted Rights" as that term is defined in FAR 52.227-19(c)(2) or DFAR 252.227-7015, and in accordance with CA's then current GSA FSS contract. 
-# All Software is provided FOB shipping point or electronic delivery.  Acceptance is waived and deemed to have occurred at the earliest of point of physical shipment or delivery of keys/access codes for electronic delivery.  CA is the manufacturer of the Product.
-# This Agreement shall be governed by and interpreted in accordance with the laws of the State of New York, without regard to its choice of law provisions. 
+# 8.  The Product, including any source or object code that may be provided to Licensee hereunder, as well as documentation, appearance, structure and organization, is the proprietary property of CA and/or its licensors, if any, and may be protected by copyright, patent, trademark, trade secret and/or other laws. Title to the Product, or any copy, modification, translation, partial copy, compilation, derivative work or merged portion of any applicable SDK, shall at all times remain with CA and/or its licensors.  Licensee agrees that CA may use any feedback provided by Licensee related to the Product for any CA business purpose, without requiring consent including reproduction and preparation of derivative works based upon such feedback, as well as distribution of such derivative works. Usage rights respecting the Product may not be exchanged for any other CA product.  The Product is licensed as a single product. Its component parts may not be separated for use.  Licensee and its Authorized End Users will keep the Product and the terms of this license strictly confidential and use its best efforts to prevent and protect the Product from unauthorized disclosure or use. Licensee may not (i) disclose, de-compile, disassemble nor otherwise reverse engineer the Product except to the extent the foregoing restriction is expressly prohibited under applicable law; (ii) create any derivative works based on the Product; (iii) use the Product to provide facilities management, outsourcing, service bureau, hosted services, cloud services, on demand services or like activity whereby Licensee, without a CA license authorizing such purpose, operates or uses the Product for the benefit of a third party; or (iv) permit the use of the Product by any third party, except as authorized by CA in writing.  Licensee shall not release the results of any benchmark testing of the Product to any third party without the prior written consent of CA.  Licensee will not transfer, assign, rent, lease, use, copy or modify the Product, in whole or in part, or permit others to do any of the foregoing with regard to the Product without CA’s prior written consent, except to the extent the foregoing restriction is expressly prohibited under applicable law.  Licensee will not remove any proprietary markings of CA or its licensors.  Licensee may make a reasonable number of copies of the Product for disaster recovery “cold standby�?, backup and archival purposes; provided that use of such copies is limited to testing Licensee’s disaster recovery procedures and effectiveness and as is necessary during any reasonable period subsequent to the occurrence of an actual disaster during which Licensee cannot operate the Product.  If this license terminates for any reason, Licensee shall certify to CA in writing that all copies and partial copies of the Product have been deleted from all computers and storage devices and are returned to CA or destroyed and are no longer in use.  Licensee acknowledges that the Product is subject to control under European and U.S. law, including the Export Administration Regulations (15 CFR 730-774) and agrees to comply with all applicable import and export laws and regulations.  Licensee agrees that the Product will not be exported, reexported or transferred in violation of U.S. law or used for any purpose connected with chemical, biological or nuclear weapons or missile applications, nor be transferred or resold, if Licensee has knowledge or reason to know that the Product is intended or likely to be used for such purpose.  The Product and any accompanying documentation have been developed entirely at private expense and are "commercial item(s)" and "commercial computer software" as those terms are defined in Federal Acquisition Regulation Subpart 2.101 “Definitions.�?  The Product is exempt from disclosure under the Freedom of Information Act (FOIA), 5 U.S.C. §552(b) under one or more exemptions to that Act (or a similar U.S. state statute, as applicable).  Any Product previously delivered to You may not be delivered again. Any Product not previously delivered to Licensee will be delivered to Licensee or its chosen reseller following receipt by CA of an acceptable order. The Product shall be delivered either by electronic delivery (“ESD�?) or, if CA or a CA affiliate respectively requires delivery in tangible media, CPT, as defined in INCOTERMS 2010, from CA’s or such CA affiliate’s shipping point. CA or the CA affiliate from which Licensee is procuring the Product agrees to be responsible for all customs duties and clearances and title to any CA hardware if included will pass upon point of delivery to carrier at CA’s or such CA affiliate’s shipping location. In the event of electronic delivery, no tangible personal property will be delivered. Such electronic delivery may not automatically provide for an exemption from applicable sales or use tax. Any operating system identified as "Generic" or "GA" denotes such operating systems for which the Product is made generally available by CA in accordance with CA current published specifications..  Acceptance is waived and deemed to have occurred at the earliest of point of physical shipment or delivery of keys/access codes for electronic delivery.  CA Inc. is the manufacturer of the Product.CA reserves the right, on notice to You, to conduct an audit remotely or onsite of Licensee and/or Your Affiliates facilities to verify compliance by Licensee and its Authorized End Users with the terms of this Agreement. CA agrees that such audit shall be conducted during regular business hours at Your offices and CA shall endeavor to conduct such audit so as not to interfere unreasonably with Your activities and/or use an independent third party to conduct the audit subject to terms of non-disclosure if required. This Agreement shall be governed by and interpreted in accordance with the laws of the State of New York, without regard to its choice of law provisions, and any action arising under or relating to the Agreement shall lie within the exclusive jurisdiction of the State and Federal Courts located in Suffolk County, New York.
 # 
-# 9.  CA warrants that it can enter into this Agreement and that it will indemnify, hold Licensee harmless, and defend or, at its option, settle any claim that CA is not so authorized or that Licensee’s use of the Product as authorized hereby infringes any patent, copyright or other intellectual property right of any third party.  CA also warrants that the Product will operate in accordance with its published specifications, provided that CA’s only responsibility will be to use reasonable efforts, consistent with industry standards, to cure any defect.  The foregoing warranty respecting the operation of the Product will be in effect only during any period for which Licensee shall have paid the applicable license fee and annual maintenance fee, or, with respect to Products licensed without an Order Form, during a period of ninety (90) days from Licensee’s acquisition of license for the Product.  If, within a reasonable time after receiving Licensee’s written notice of breach of either of the above warranties, CA is unable to cause the Product to operate 
-# (a) without infringing a third party’s intellectual property rights, or (b) in accordance with CA’s written specifications, then either party may terminate this Agreement on written notice to the other party and CA or the authorized reseller will refund the relevant license fees paid for such non-compliant Product only when Licensee returns the Product to CA or its authorized reseller from whom it obtained the Product, with the purchase receipt within the warranty period noted above.  The warranties set forth in this Section do not apply to beta versions of the Product, Product licensed on a trial or evaluation basis or to Software Development Kits.  
+# 9. CA warrants that it can enter into this Agreement and that it will indemnify Licensee, or, at its option, settle any third party claim that CA is not so authorized or that Licensee’s use of the Product as authorized hereby infringes any United States patent or copyright within the jurisdictions where Licensee is authorized to use the Product at the time of delivery.  CA also warrants that its distributed Product will operate materially in accordance with its published specifications set forth within the documentation for a period of ninety (90) days after delivery of the Product to Licensee, provided that CA’s only responsibility will be to use reasonable efforts, consistent with industry standards, to cure any defect.  If, within a reasonable time after receiving Licensee’s written notice of breach of either of the above warranties, CA is unable to cause the Product to operate (a) without infringing a third party’s intellectual property rights, or (b) materially in accordance with CA’s written specifications, then CA may terminate the license and provide or arrange for a pro-rata refund to Licensee or its authorized CA reseller of the license fees and or the support and maintenance fees paid.  In the event of such termination, the pro-rata refund shall be calculated on (i) the number of months left remaining on the Term of the applicable Order Form or (ii) if the Product is licensed under a perpetual license, using (only for purposes of a refund calculation) an amortization schedule of three (3) years.  The warranties set forth in this Section do not apply to beta, trial, evaluation or demonstration versions of the Product, or to Software Development Kits.  CA shall have no liability to indemnify or to remedy a warranty claim: (i) in the event the allegation of infringement or warranty claim is a result of a modification of the Product except a modification by CA, (ii) if the Product is not being used in accordance with CA’s specifications, related documentation and guidelines, (iii) if the alleged infringement or warranty claim would be avoided or otherwise eliminated by the use of a CA published update or patch, (iv) if the alleged infringement or warranty claim is a result of use of the Product in combination with any third party product, or (v) if the applicable fees due for the Product have not been paid or Licensee is otherwise in breach of this Agreement. The indemnifications contained herein shall not apply and CA shall have no liability in relation to any Product produced by CA at the specific direction of Licensee. THE FOREGOING PROVISIONS STATE THE ENTIRE LIABILITY AND OBLIGATIONS OF CA REGARDING CLAIMS OF INFRINGEMENT, AND THE EXCLUSIVE REMEDY AVAILABLE TO LICENSEE WITH RESPECT TO ANY ACTUAL OR ALLEGED INFRINGEMENT OR MISAPPROPRIATION OF ANY INTELLECTUAL PROPERTY OR OTHER PROPRIETARY RIGHTS.
 # 
-# 10.  EXCEPT AS SET FORTH ABOVE, TO THE FULL EXTENT PERMITTED BY APPLICABLE LAW: 
+# 10.  EXCEPT AS SET FORTH ABOVE, TO THE FULL EXTENT PERMITTED BY APPLICABLE LAW:
 # 
-# (I) NO OTHER WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE MADE BY CA; 
-# (II) IN NO EVENT WILL CA BE LIABLE TO LICENSEE OR ANY OTHER PARTY FOR ANY CLAIM FOR LOSS, INCLUDING TIME, MONEY, GOODWILL, AND CONSEQUENTIAL DAMAGES, WHICH MAY ARISE FROM THE USE, OPERATION OR MODIFICATION OF THE PRODUCT, EVEN IF CA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  IN THE EVENT THAT THE ABOVE LIABILITY LIMITATION IS FOUND TO BE INVALID UNDER APPLICABLE LAW, THEN CA’S LIABILITY FOR SUCH CLAIM SHALL BE LIMITED TO THE AMOUNT OF THE LICENSE FEE ACTUALLY PAID FOR THE PRODUCT BY LICENSEE.  NO THIRD PARTY, INCLUDING AGENTS, DISTRIBUTORS, OR AUTHORIZED CA RESELLERS IS AUTHORIZED TO MODIFY ANY OF THE ABOVE WARRANTIES OR MAKE ANY ADDITIONAL WARRANTIES ON BEHALF OF CA. CA DOES NOT WARRANT THAT THE PRODUCT WILL MEET LICENSEE’S REQUIREMENTS OR THAT USE OF THE PRODUCT WILL BE UNINTERRUPTED OR ERROR FREE.
+# (I) NO OTHER WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE MADE BY CA;
+# (II) IN NO EVENT WILL CA BE LIABLE TO LICENSEE OR ANY OTHER PARTY FOR ANY CLAIM FOR LOSS, INCLUDING TIME, MONEY, GOODWILL, AND CONSEQUENTIAL OR INDIRECT DAMAGES, WHICH MAY ARISE FROM THE USE, OPERATION OR MODIFICATION OF THE PRODUCT, EVEN IF CA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  IN THE EVENT THAT THE ABOVE LIABILITY LIMITATION IS FOUND TO BE INVALID UNDER APPLICABLE LAW, THEN CA’S LIABILITY FOR SUCH CLAIM SHALL BE LIMITED TO THE AMOUNT OF THE LICENSE FEE ACTUALLY PAID FOR THE PRODUCT BY LICENSEE.  NO THIRD PARTY, INCLUDING AGENTS, DISTRIBUTORS, OR AUTHORIZED CA RESELLERS IS AUTHORIZED TO MODIFY ANY OF THE ABOVE WARRANTIES OR MAKE ANY ADDITIONAL WARRANTIES ON BEHALF OF CA. CA DOES NOT WARRANT THAT THE PRODUCT WILL MEET LICENSEE’S REQUIREMENTS OR THAT USE OF THE PRODUCT WILL BE UNINTERRUPTED OR ERROR FREE.
 # 
-# 11.  Licensee may assign this Agreement only if Licensee complies with CA’s then prevailing policies respecting assignment of licenses, which includes a requirement that the scope of use of the Product not be expanded beyond the business of Licensee and the business of Licensee’s majority-owned subsidiaries.  CA may assign this Agreement to any third party that succeeds to CA’s interests in the Product and assumes the obligations of CA hereunder; and CA may assign its right to payment hereunder or grant a security interest in this Agreement or such payment right to any third party.  
+# 11.  Licensee may assign this Agreement only if Licensee complies with CA’s then prevailing policies respecting assignment of licenses, which includes a requirement that the scope of use of the Product not be expanded beyond the business of Licensee and the business of Licensee’s majority-owned subsidiaries.
 # 
-# 12.  If Licensee breaches any term of this Agreement or if Licensee becomes insolvent or if bankruptcy or receivership proceedings are initiated by or against Licensee, CA shall have the right to withhold its own performance hereunder and/or to terminate this Agreement immediately and, in addition to all other rights of CA, all amounts due or to become due hereunder will immediately be due and payable to CA.
+# 12.  If Licensee breaches any term of this Agreement or if Licensee becomes insolvent or if bankruptcy or receivership proceedings are initiated by or against Licensee, CA shall have the right to withhold its own performance hereunder and/or to terminate this Agreement immediately and, in addition to all other rights of CA, all amounts due or to become due hereunder, if any, will immediately be due and payable to CA or the CA affiliate the Licensee was procuring the Product from.
 # 
-# 13.  If Licensee fails to pay the applicable maintenance fee, then Licensee may reinstate maintenance thereafter by paying to CA a fee equal to 150% of CA’s then prevailing maintenance fee for each year for which the maintenance fee has not been paid.
+# 13.  If Licensee fails to pay the applicable maintenance fee, then Licensee may reinstate maintenance thereafter by paying to CA or the respective CA affiliate a fee equal to 150% of CA’s then prevailing maintenance fee for each year for which the maintenance fee has not been paid.
 # 
 # 14.  If a court holds that any provision of this Agreement to be illegal, invalid or unenforceable, the remaining provisions shall remain in full force and effect. No waiver of any breach of this Agreement shall be a waiver of any other breach, and no waiver shall be effective unless made in writing and signed by an authorized representative of the waiving party.  Any questions concerning this Agreement should be referred to CA, Inc., One CA Plaza, Islandia, NY 11749, Attention: Worldwide Law Department.
 # 
 # 15.  In the event Licensee acquires a license for the Product outside of the United States, the following Sections will apply to the use of the Product:
 # 
-# Notwithstanding the terms of the last sentence of Section 8, the laws of the country in which Licensee acquires a license for the Product shall govern this Agreement, except as otherwise provided below. 
+# Notwithstanding the terms of the last sentence of Section 8, the laws of the country in which Licensee acquires a license for the Product shall govern this Agreement, except as otherwise provided below:
 # 
-# In Albania, Armenia, Belarus, Bosnia/Herzegovina, Bulgaria, Croatia, Georgia, Hungary, Kazakhstan, Kirghizia, Former Yugoslav Republic of Macedonia (FYROM), Moldova, Romania, Russia, Slovak Republic, Slovenia, and Ukraine, the laws of Austria govern this Agreement. 
+# Europe, Middle East and Africa
+# 
+# 1. In EMEA the CA entity that is the licensor is CA Europe Sàrl (“CA Europe�?). CA Europe Sàrl is the licensor for Products which have been made available to Licensee by way of license from CA Europe Sàrl through a local CA subsidiary in EMEA or through an authorized CA reseller. The CA support and maintenance, if any, is being provided by a local CA subsidiary or by an authorized CA reseller.
+# 	
+# 2. EMEA means Europe, Middle East and Africa.
+# 
+# 3. Section 9, third sentence and fifth sentence shall only apply to third party rights infringement. Section 9, second sentence is deleted and replaced with:
+# “CA Europe also warrants that the Product will operate materially in accordance with the applicable specifications set forth within the documentation of the Product subject always to Licensee’s compliance with the terms of this Agreement. If CA Europe has breached this warranty Licensee’s remedy is for CA Europe, in consultation with Licensee, to either (i) use reasonable efforts consistent with industry standards to cure the defect, or (ii) replace the Product with one that materially complies with the documentation. If the defect cannot be cured within a reasonable period of time or if the rectification of the defect or replacement has finally failed, Licensee shall have (i) in case of a subscription license the right to reasonably reduce the fees agreed and/or terminate immediately for cause, if the legal or statutory requirements are met; (ii) in case of a perpetual license, at its option, the right (1) to rescind or reduce the fees agreed in the applicable transaction document and (2) claim damages or to claim reimbursement of futile expenditures. The right to claim damages or futile expenditures shall be subject to the limitations of liability set forth below in section 10. In case of a perpetual license the warranty claims stated herein shall become time-barred within ninety (90) days after delivery of the Product. Warranty remedies are conditioned upon (i) any error or defect complained of is reasonably reproducible by CA Europe, (ii) the Product is not modified and is being used in accordance with the documentation, and (iii) the breach is not attributable in whole or in part to any non-CA product(s) or service(s). The above warranties are the sole warranties provided by CA Europe. No other warranties, including that the Product is error free, whether express or implied, including, without limitation, the implied warranties of satisfactory quality, non-infringement, or suitability and/or the warranty of fitness for a particular purpose are made by CA Europe or its suppliers. If Licensee claims under this warranty section, Licensee is not entitled or eligible to seek the same warranty remedies from any other CA affiliate.�?
+# 
+# 4. Section 10 is deleted and replaced with:
+# 
+# “10.1	 CA Europe’s liability shall, regardless of the reason for the liability, be unlimited in cases of death or bodily injury or injury of health and damages caused by gross negligence or willful default of CA Europe or the grossly negligent or willful default of CA Europe’s legal representatives or persons whom CA Europe occupies with the performance of its contractual obligations and in cases of liability under the Product Liability Act (“Produktehaftpflichtgesetz�?).
+# 10.2	In case of slight negligence CA Europe shall, regardless of the reason for the liability, only be liable, if CA Europe violates an obligation, which is essential for the execution of the Agreement and in the fulfillment of which the other party regularly trusts. In this case, CA Europe’s liability to Licensee will be limited to damages which have been foreseeable and which can typically arise in connection with this Agreement.
+# 10.3	Further to the above CA Europe’s liability to the Licensee for indirect, special and consequential damages (including, without limitation, loss of profits, loss of business, loss of opportunity or loss of goodwill) shall be limited to damages which have been foreseeable and which can typically arise in connection with this Agreement.
+# 10.4 	It is the parties’ understanding that the foreseeable damages that can typically arise in connection with the licenses granted in this Agreement in the meaning of sections 10.2 and 10.3 above shall be limited to a maximum of the fees paid or owed for the then current initial or renewal Term for which the Licensee has procured the Product.
+# 10.5 The liability for loss of data shall be limited to the typical recovery efforts in the case of regular and adequate data back-up.
+# 10.6 	The remedies provided in this Agreement are the exclusive remedies of the parties.�?
+# 
+# 5. The following sections are added to this Agreement:
+# 
+# “Force Majeure. Except for payment obligations and obligations pertaining to non-disclosure, notwithstanding any contrary provision in this Agreement, neither Party will be liable for any action taken, or any failure to take any action required to be taken, in the event and to the extent that the taking of such action or such failure arises out of causes beyond a party’s control, including, without limitation, war, civil commotion, act of God, strike or other stoppage (whether partial or total) of labor, any law, decree, regulation or order of any government or governmental body (including any court or tribunal).�?
+# 
+# “Licensee Data. If Licensee transfers any personal data to CA Europe as a requirement pursuant to any Product, then Licensee represents that (i) it is duly authorized to provide personal data to CA Europe and it does so lawfully in compliance with relevant legislation, (ii) CA Europe and any entity within the CA group of companies (each a "CA entity") or its subcontractors can process such data for the purposes of performing its obligations and (iii) CA Europe may disclose such data to any CA entity and its subcontractors for this purpose and may transfer such data to countries outside of the country of origin. CA, Inc. is Safe Harbour certified and the CA entities have committed to comply with relevant data protection/privacy legislation.�?
+# 
+# 6. The laws of Switzerland (excluding its conflict of laws provisions) shall govern the construction and enforceability of this Agreement. The parties agree that any action arising under or relating to this Agreement shall lie within the exclusive jurisdiction of the Swiss courts located in Zürich. The United Nations Convention on Contracts for the International Sale of Goods will not apply to this Agreement.
+# 
+# 7. Any questions concerning this Agreement for EMEA should be referred to CA Europe Sàrl located at Building A, Lake Geneva Centre, Route de la Longeraie 9, 1110 Morges, Switzerland, Attention: Worldwide Law Department.
 # 
 # Argentina
-# The CA subsidiary that is the licensor is Computer Associates de Argentina S.A.
+# The CA subsidiary that is the licensor is CA Argentina S.A.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Argentina.  Any dispute hereunder shall be determined by the Tribunales de la Cuidad de Buenos Aires.
 # 
 # The last sentence of Section 14 is deleted and replaced with:
-# Any questions concerning this Agreement should be referred to Computer Associates de Argentina S.A, Avenida Alicia Moreau de Justo, 400, 2 piso, 1107, Buenos Aires - At.: Finance Department.
+# Any questions concerning this Agreement should be referred to CA de Argentina S.A, Avenida Alicia Moreau de Justo, 400, 2 piso, 1107, Buenos Aires – At.: Finance Department.
 # 
-# Australia 
-# The CA subsidiary that is the licensor is Computer Associates Pty. Ltd.  
+# Australia
+# The CA subsidiary that is the licensor is CA (Pacific) Pty. Ltd (ABN 20 001 146 345).
 # 
 # The following is added to each of the end of Sections 2, 3 and 10:
-# Although CA specifies that there are no warranties, Licensee may have certain rights under the Trade Practices Act 1974 and other state and territory legislation which may not be excluded but may be limited.  To the full extent permitted by law CA excludes all terms not expressly set out in the express terms of this Agreement, and limits any terms imposed by the Trade Practices Act 1974 and other state and territory legislation to the full extent permitted by the applicable legislation.  
+# Although CA specifies that there are no warranties, Licensee may have certain rights under the Competition and Consumer Act 2010 and other state and territory legislation which may not be excluded but may be limited.  To the full extent permitted by law CA excludes all terms not expressly set out in the express terms of this Agreement, and limits any terms imposed by the Competition and Consumer Act 2010 and other state and territory legislation to the full extent permitted by the applicable legislation.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # The laws of the State or Territory in which the transaction is performed govern this Agreement.
 # 
 # The following is added to Section 10:
-# Where CA is in breach of a condition or warranty implied by the Trade Practices Act 1974 or other state and territory legislation, CA's liability is limited, in the case of goods, to the repair or replacement of the goods, or payment for the repair or replacement of the goods, and in the case of services, the supplying of the services again or payment for the re-supply of the services, as CA may elect.  Where that condition or warranty relates to a right to sell, quiet possession or clear title, in respect of goods or if the goods supplied by CA are of a kind ordinarily acquired for personal, domestic or household use or consumption, then none of the limitations in this Section apply.
+# Where CA is in breach of a condition or warranty implied by the Competition and Consumer Act 2010 or other state and territory legislation, CA's liability is limited, in the case of goods, to the repair or replacement of the goods, or payment for the repair or replacement of the goods, and in the case of services, the supplying of the services again or payment for the re-supply of the services, as CA may elect.  Where that condition or warranty relates to a right to sell, quiet possession or clear title, in respect of goods or if the goods supplied by CA are of a kind ordinarily acquired for personal, domestic or household use or consumption, then none of the limitations in this Section apply.
 # 
-# Austria 
-# The last sentence of Section 8 is deleted and replaced with:
-# The laws of Austria govern this Agreement.  The following is added to Section 8: In addition, CA is entitled to bring action against Licensee in a court located in Licensee’s place of incorporation, establishment or permanent residence.
-# 
-# The following is added to Section 10:
-# Any liability for the slight negligence of CA is excluded.
-# 
-# The following is added to the Agreement:
-# In the event the Licensee qualifies as a consumer according to Austrian Consumer Protection Act ("Konsumentenschutzgesetz" -"KSchG") Sections 2, 3, 9 and 10 of this Agreement are not applicable to the extent they reduce CA’s liability and the consumer’s warranty.
-# 
-# Belgium   
-# The CA subsidiary that is the licensor is Computer Associates S.A./N.V.
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# The courts of CA’s registered office shall have exclusive jurisdiction regarding any dispute that may arise between the parties dealing with the formation, execution, interpretation, or termination of this Agreement, including but not limited to measures of conservation, emergency proceedings, warranty proceedings, petition or in case of more than one defendant. 
-# 
-# The last sentence of Section 14 are deleted and replaced with:
-# Any question concerning this Agreement should be referred to Computer Associates S.A./N.V., Da Vincilaan 11, Box F2, Building Figueras, B-1935 Zaventem, Attention: Worldwide Law Department. 
-# 
-# Brazil 
-# The CA subsidiary that is the licensor is CA Programas de Programas de Computador Ltda.
+# Brazil
+# The CA subsidiary that is the licensor is CA Programas de Computador, Participações e Serviços Ltda.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Brazil.  Any dispute hereunder shall be determined by a court of the São Paulo City Hall.
 # 
 # The last sentence of Section 14 is deleted and replaced with:
-# Any questions concerning this Agreement should be referred to CA Programas de Programas de Computador Ltda, Avenida das Nações Unidas, 12901 - 6 andar - Torre Norte - São Paulo - SP, 04578-000, At.: Worldwide Law Department.
+# Any questions concerning this Agreement should be referred to CA Programas de Computador, Participações e Serviços Ltda., Avenida das Nações Unidas, 12901 – 6 andar – Torre Norte – São Paulo – SP, 04578-000, At.: Worldwide Law Department.
 # 
-# Canada 
-# The CA subsidiary that is the licensor is Computer Associates Canada Company.
+# Canada
+# The CA subsidiary that is the licensor is CA Canada Company.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # The laws in the Province of Ontario shall govern this Agreement.
 # 
-# Chile 
-# The CA subsidiary that is the licensor is Computer Associates de Chile S.A.
+# Chile
+# The CA subsidiary that is the licensor is CA de Chile, S.A.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Chile.  Any dispute hereunder shall be determined by the Tribunales Ordinarios de la Cuidad de Santiago.
 # 
 # The last sentence of Section 14 is deleted and replaced with:
-# Any questions concerning this Agreement should be referred to Computer Associates de Chile S.A, Avenida Providencia 1760, piso 15 - Edificio Palladio, oficina 1501 - 6640709 Providencia - Santiago - At.: Finance Department.
+# Any questions concerning this Agreement should be referred to CA de Chile, S.A, Avenida Providencia 1760, piso 15 – Edificio Palladio, oficina 1501 - 6640709 Providencia - Santiago – At.: Finance Department.
 # 
-# China  
-# The CA subsidiary that is the licensor is CA (China) Co., Ltd.  
+# China
+# The CA subsidiary that is the licensor is CA (China) Co., Ltd.
 # 
 # The second sentence of Section 6 is deleted and replaced with:
-# All fees are inclusive of VAT.   
+# All fees are inclusive of VAT.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of the People’s Republic of China, without regard to its choice of law provisions.  Any dispute hereunder shall be determined by a competent court located in Beijing.
 # 
 # Colombia
-# The CA subsidiary that is the licensor is Computer Associates de Colombia S.A.
+# The CA subsidiary that is the licensor is CA Software de Colombia S.A.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Colombia.  Any dispute hereunder shall be determined by the Tribunales Ordinarios de la Cuidad de Bogotá.
 # 
 # The last sentence of Section 14 is deleted and replaced with:
-# Any questions concerning this Agreement should be referred to Computer Associates de Colombia S.A, Avenida 82, numero 12-18, Oficina 305 - Santa Fé de Bogotá, D.C., Colombia - At.: Finance Department.
-# 
-# Czech Republic 
-# The first sentence of Section 1 is deleted and replaced with:
-# CA grants the Licensee a non-exclusive license to use the Product, for use by a single user, or the quantity designated as the authorized use limitation ("Authorized Use Limitation") on any Order Form (defined below) referencing the terms of this Agreement or CD sleeve included within the Product box.
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# This Agreement shall be governed by and interpreted in accordance with the laws of the Czech Republic, without regard to its choice of law provisions.  Any dispute hereunder shall be determined by a court of competent jurisdiction within the Czech Republic.
-# 
-# Section 10 is deleted and replaced with:
-# Except as set forth above, to the full extent permitted by applicable law, no other warranties, whether express or implied, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose, are made by CA. 
-# 
-# Denmark   
-# The CA subsidiary that is the licensor is Computer Associates Scandinavia A/S.
-# 
-# The third paragraph of the Preamble is deleted and replaced with:
-# By installing, copying or using the product or by typing "accept" below, you are:
-# (I) Representing that you are not a minor and have full legal capacity and have the authority to bind yourself and your employer, as applicable, to the terms of this Agreement; 
-# (II) Consenting on behalf of yourself and/or as an authorized representative.
-# 
-# The following is added to the last paragraph of the Preamble:
-# In the event that you type "reject" below, the installation shall cease.  You should delete all copies of the Product from your computer systems and return, by registered first class post, the Product, complete with box and any documentation, to CA or the authorized reseller from whom you purchased the Product with your proof of purchase within thirty (30) days of the date of purchase.  You will promptly be issued a full refund of any license fees paid for the Product and, if applicable, maintenance fees paid.  If requested at the time of return and provided that receipts of costs incurred are provided, CA or the authorized reseller shall also refund to you any postage costs you incurred in returning the Product.
-# 
-# The second to last sentence of Section 2 is deleted and replaced with: 
-# Beta products are provided on an "as is" basis, without warranties or representations of any kind, either express or implied including, without limitation, any warranties, conditions or representations of merchantability or satisfactory quality and fitness for a particular purpose, as well as any express warranties provided elsewhere in this Agreement.
-# 
-# The last sentence of Section 3 is deleted and replaced with:
-# Licensee’s use of the product during the trial period is on an "as is" basis without any warranty, and CA disclaims all warranties including, without limitation, any implied warranties or conditions of merchantability or satisfactory quality and fitness for a particular purpose, as well as any express warranties provided elsewhere in this Agreement. 
-# 
-# The seventh sentence of Section 8 is deleted and replaced with:
-# Licensee may not:
-# 
-# (I) Disclose, de-compile, disassemble nor otherwise reverse engineer the Product save to the extent expressly permitted by law;
-# (II) Create any derivative works based on the Product;
-# (III) Use the Product in connection with a service bureau or like activity whereby Licensee, without purchasing a license from CA for such purpose, operates or uses the Product for the benefit of a third party who has not purchased a copy of the Product;
-# (IV) Permit the use of the Product by any third party without the prior written consent of CA, save for contract staff of the Licensee who are acting on the Licensee’s business, not engaged in facilities management and who the Licensee agrees as a condition of this Agreement to ensure such contract staff shall comply with all the terms of this Agreement, including without limitation, confidentiality provisions.
-# 
-# Section 10. (A) is deleted and replaced with:
-# No other warranties, whether express or implied, including, without limitation, any implied warranties or conditions of merchantability, satisfactory quality and fitness for a particular purpose, are made by CA; and 
-# 
-# The following is added at the end of Section 10:
-# The foregoing exclusions and limitations upon liability shall not apply to any liability for damages arising from:
-# a. Tangible property damage to the extent that such is due to the negligence of an employee or authorized agent of CA, in which event CA’s maximum liability shall be limited to $1,000,000 for each event or series of events;
-# b. Death or personal injury caused by the negligence of an employee or authorized agent of CA.
-# 
-# France 
-# The CA subsidiary that is the licensor is CA S.A.
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# The Commercial Court of Paris shall have exclusive jurisdiction regarding any dispute that may arise between the parties dealing with the formation, execution, interpretation, or termination of this Agreement, including but not limited to measures of conservation, emergency proceedings, warranty proceedings, petition or in case of more than one defendant.
-# 
-# The last sentence of Section 14 is deleted and replaced with:
-# Any question concerning this Agreement should be referred to CA S.A. Immeuble Ex-Libris, 25 quai du Président Paul Doumer, 92408 COURBEVOIE Cedex, Attention: Worldwide Law Department.
-# 
-# Germany 
-# The CA subsidiary that is the licensor is CA Computer Associates GmbH.  
-# 
-# Section 6 of the Agreement is deleted. 
-# 
-# The twelfth sentence of Section 8 is deleted. The sixteenth sentence of Section 8 is deleted and replaced with: 
-# Licensee shall comply with all relevant import and export regulations, including those adopted by the Office of Export Administration of the US Department of Commerce, any competent EU government and German export regulations.  Licensee understands and acknowledges that US, EU and German restrictions vary regularly and, depending on Product, Licensee must refer to then current US, EU or German regulations.
-# 
-# The following is added to Section 9:
-# CA shall not be liable for any infringement based upon use of other than an unaltered release of the Product unless altered with CA's prior written consent.
-# 
-# Section 10 is deleted and replaced with:
-# In case of (i) willful misconduct, no limitation of liability applies;(ii) personal injury or damage to property, CA’s liability to Licensee is limited to the maximum amount that CA will recover under its insurance policies; (iii) gross negligence that results in other damage than personal injury or damage to property, CA’s liability to Licensee shall be limited to an amount equal to the license fee for the Product; (iv) negligence that results in damages other than  personal injury or damage to property, CA’s liability to Licensee shall be limited to an amount equal to fifty percent (50%) of the license fee for the Product. Notwithstanding the foregoing, the aggregated liability according to (iii) and (iv) above shall never exceed an amount equal to the purchase price of the Product.  Except in case of willful misconduct or gross negligence, neither party shall be liable to the other for indirect, incidental, special or consequential damage, including but not limited to harm to services supplied by Licensee, or loss of business, loss of profit, or loss of data, 
-# arising out of or in connection with the implementation or the use of the Product.  No actions, regardless of form, arising out of this Agreement may be brought by either party more than three (3) years after the cause of action has arisen, or, in the cause of non-payment, more than three (3) years from the date of the relevant invoice. Neither party shall be liable for delay in performing or failure to perform any of its obligations under this Agreement if the delay or failure results from events or circumstances outside its reasonable control.  Such delay or failure shall not constitute a breach of this Agreement and time for performance shall be extended by time equivalent to the length of the delay caused by force majeure.
-# 
-# Greece 
-# The CA subsidiary that is the licensor is Computer Associates Hellas Ltd.
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# Any dispute hereunder shall finally be determined by Athens Courts. 
+# Any questions concerning this Agreement should be referred to CA Software de Colombia S.A, Edificio  Grupo Santander Central Hispano Torre 2 - Oficina 401 Carrera 7 - Nº 99-53 - Bogotá D.C. - Colombia – At.: Finance Department.
 # 
 # Hong Kong
-# The CA subsidiary that is the licensor is CA (Hong Kong) Limited.
+# The CA subsidiary that is the licensor is CA (Hong Kong) Limited which is also its principal place of business at Suites 2301 2306, 23rd Floor, Dah Sing Financial Centre, 108 Gloucester Road, Wanchai, Hong Kong.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Hong Kong.  The courts of Hong Kong will have sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement.
@@ -229,61 +156,33 @@
 # The CA subsidiary that is the licensor is CA (India) Technologies Private Limited.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
-# This Agreement and the terms hereof shall be governed and construed in accordance with the laws of India and the courts of Mumbai shall have sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement.
+# This Agreement and the terms hereof shall be governed and construed in accordance with the laws of India and the courts of Mumbai shall have sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement. In the event the Product is delivered electronically, the said Product shall be made available by CA for downloading from a server situated in a country other than India.
 # 
-# Indonesia 
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# This Agreement and the terms hereof shall be governed and construed in accordance with the laws of Indonesia.  The courts of Indonesia, located in Jakarta, will have the sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement.
-# 
-# Section 9 is amended by adding the following:
-# Licensee represents that Licensee (i) has full corporate power and authority; and (ii) is legally capable to execute, deliver and perform this Agreement.  CA and Licensee agree to waive any provisions, procedures and operation of any applicable law to the extent that a court order is required for termination of this Agreement.
-# 
-# Israel  
-# The CA subsidiary that is the licensor is CA Computer Associates Israel Ltd.
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# Any dispute hereunder shall finally be determined by Tel Aviv Courts. 
-# 
-# Italy 
-# The CA subsidiary that is the licensor is Computer Associates S.p.A.
-# 
-# According to article 1341 and 1342 of the Italian Civil Code, the Licensee expressly accepts the terms and conditions included in Sections 6 (specifically the interest rate set forth in the last sentence), 8 and 9.
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# Any dispute hereunder shall finally be determined by Milan Courts. 
+# Indonesia (refer to Singapore)
 # 
 # Japan
 # The CA subsidiary that is the licensor is CA Japan, Ltd.
 # 
 # The third sentence of Section 6 is deleted and replaced with:
-# Licensee agrees to pay any tariffs, duties or taxes imposed or levied by any government or governmental agency other than the taxes for which CA is responsible upon a presentation of invoices by CA. 
+# Licensee agrees to pay any tariffs, duties or taxes imposed or levied by any government or governmental agency other than the taxes for which CA is responsible upon a presentation of invoices by CA.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of the country of Japan, without regard to its choice of law provisions.  Any dispute hereunder shall finally be determined by Tokyo District Court located in Tokyo Japan.
 # 
 # The last sentence of Section 14 is deleted and replaced with:
-# Any questions concerning this Agreement should be referred to CA Japan, Ltd., 2-1-1, Nishishinjyuku, Shinjyuku-ku, Tokyo, 163-0439, Japan, Attention: Worldwide Law Department.
+# Any questions concerning this Agreement should be referred to CA Japan, Ltd., 2-7-9, Hirakawa-cho, Chiyoda-ku, Tokyo, 102-0093, Japan, Attention: Worldwide Law Department.
 # 
 # Korea
 # The CA subsidiary that is the licensor is CA Korea Inc., Ltd.
 # 
-# The last sentence of Section 8 is deleted and replaced with: 
+# The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Republic of Korea, without regard to its choice of law provisions.
 # 
-# The last sentence of Section 14 is deleted and replaced with: 
+# The last sentence of Section 14 is deleted and replaced with:
 # Any questions concerning this Agreement should be referred to CA Korea Inc., Ltd, City Air Tower (18th Fl.), 159-9, Samsung-Dong, Kangnam-Ku, Seoul 135-973 Korea, Attention: Worldwide Law Department.
 # 
-# Lybia, Egypt, Lebanon, Jordan, Iraq, Kingdom of Saudi Arabia, Kuwait, Qatar, United Arab Emirates, Oman, Yemen and Pakistan
-# 
-# The CA subsidiary that is the licensor is CA Arabia FZ-LLC
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# This Agreement shall be interpreted according to, and governed by, the Laws of Dubai and the Federal Laws of the United Arab Emirates.
-# Any disputes shall be finally settled by arbitration in accordance with the Rules of Commercial Conciliation and Arbitration of the Dubai Chamber of Commerce & Industry, which Rules are deemed to incorporate reference to this Clause.  The place of arbitration shall be Dubai. The arbitration proceedings and award shall be conducted and written in the English language.  Judgment upon the award rendered may be executed by any court having jurisdiction, or application may be made to such court for a judicial recognition of the award or any order of enforcement thereof, as the case may be. The award of the arbitration shall be the sole and exclusive remedy between the parties regarding any and all claims and counterclaims presented to the arbitrators.
-# 
 # Malaysia
-# The CA subsidiary that is the licensor is Computer Associates (M) Sdn. Bhd.
+# The CA subsidiary that is the licensor is CA (Malaysia) Sdn. Bhd.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Malaysia.  The courts of Malaysia will have sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement.
@@ -291,47 +190,14 @@
 # The following is added to Section 10:
 # Although CA specifies that there are no other warranties, Licensee may have certain rights under the Consumer Protection Act 1999 and the warranties are only limited to the extent permitted by the applicable legislation.
 # 
-# Mexico 
-# The CA subsidiary that is the licensor is Computer Associates de México S.A. de C.V.
+# Mexico
+# The CA subsidiary that is the licensor is CA Software de México S.A. de C.V.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of México.  Any dispute hereunder shall be determined by the Tribunales de la Cuidad de México.
 # 
 # The last sentence of Section 14 is deleted and replaced with:
-# Any questions concerning this Agreement should be referred to Computer Associates de México S.A. de C.V, Avenida Jaime Balmes, 8 - Piso 4 - Oficina 403 - Col. Los Morales - Polanco , 11510 - Mexico - DF - At.: Finance Department.
-# 
-# Netherlands
-# The CA subsidiary that is the licensor is Computer Associates B.V.
-# 
-# The third paragraph of the Preamble is deleted and replaced with:
-# By installing, copying or using the product or by typing "accept" below, you are 
-# (I) Representing that you are not a minor and have full legal capacity and have the authority to bind yourself and your employer, as applicable, to the terms of this Agreement; 
-# (II) Consenting on behalf of yourself and/or as an authorized representative.
-# 
-# The following is added to the last paragraph of the Preamble:
-# In the event that you type "reject" below, the installation shall cease.  You should delete all copies of the Product from your computer systems and return, by registered first class post, the Product, complete with box and any documentation, to CA or the authorized reseller from whom you purchased the Product with your proof of purchase within thirty (30) days of the date of purchase.  You will promptly be issued a full refund of any license fees paid for the Product and, if applicable, maintenance fees paid.  If requested at the time of return and provided that receipts of costs incurred are provided, CA or the authorized reseller shall also refund to you any postage costs you incurred in returning the Product.
-# 
-# The second to last sentence of Section 2 is deleted and replaced with:
-# Beta products are provided on an "as is" basis, without warranties or representations of any kind, either express or implied including, without limitation, any warranties, conditions or representations of merchantability or satisfactory quality and fitness for a particular purpose, as well as any express warranties provided elsewhere in this Agreement.
-# 
-# The last sentence of Section 3 is deleted and replaced with:
-# Licensee’s use of the product during the trial period is on an "as is" basis without any warranty, and CA disclaims all warranties including, without limitation, any implied warranties or conditions of merchantability or satisfactory quality and fitness for a particular purpose, as well as any express warranties provided elsewhere in this Agreement. 
-# 
-# The seventh sentence of Section 8 is deleted and replaced with:
-# Licensee may not
-# (I) Disclose, de-compile, disassemble nor otherwise reverse engineer the Product save to the extent expressly permitted by law;
-# (II) Create any derivative works based on the Product;
-# (III) Use the Product in connection with a service bureau or like activity whereby Licensee, without purchasing a license for such purpose from CA, operates or uses the Product for the benefit of a third party who has not purchased a copy of the Product;
-# (IV) Permit the use of the Product by any third party without the prior written consent of CA, save for contract staff of the Licensee who are acting on the Licensee’s business, not engaged in facilities management and who the Licensee agrees as a condition of this Agreement to ensure that such contract staff shall comply with all the terms of this Agreement, including without limitation, confidentiality provisions. 
-# 
-# Section 10.(A) is deleted and replaced with:
-# No other warranties, whether express or implied, including, without limitation, any implied warranties or conditions of merchantability, satisfactory quality and fitness for a particular purpose, are made by CA.
-# 
-# The following is added at the end of Section 10:
-# The foregoing exclusions and limitations upon liability shall not apply to any liability for damages arising from:
-# a. Tangible property damage to the extent that such is due to the negligence of an employee or authorized agent of CA, in which event CA’s maximum liability shall be limited to $1,000,000 for each event or series of events;
-# b. Death or personal injury caused by the negligence of an employee or authorized agent of CA, or 
-# c. Willful misconduct or gross negligence of CA.
+# Any questions concerning this Agreement should be referred to CA Software de México S.A. de C.V, Av. Miguel de Cervantes Saavedra 193, Suite 502, Col. Granada, Mexico City, MX 11500 – At.: Finance Department.
 # 
 # New Zealand
 # The CA subsidiary that is the licensor is CA Pacific (NZ) Ltd.
@@ -339,7 +205,7 @@
 # Notwithstanding the final sentence of Section 6, the applicable interest charge on invoices unpaid by Licensee is 1.5% per month.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
-# This Agreement shall be governed by and interpreted in accordance with the laws of New Zealand.  The courts of New Zealand will have sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement. 
+# This Agreement shall be governed by and interpreted in accordance with the laws of New Zealand.  The courts of New Zealand will have sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement.
 # 
 # The following is added to Section 10:
 # Although CA specifies that there are no warranties, Licensee may have certain rights under the Consumer Guarantees Act 1993 or other legislation which cannot be excluded or limited.  The Consumer Guarantees Act 1993 will not apply in respect of any goods or services which CA supplies, if Licensee acquires the goods and services for the purposes of a business as defined in that Act.  Where the Product is not acquired for the purposes of a business as defined in the Consumer Guarantees Act 1993, the limitations in this Section are subject to the limitations in that Act.
@@ -347,205 +213,61 @@
 # The following is added to Section 12:
 # CA’s rights under this Section shall also apply if any resolution is passed or proceedings are commenced for the liquidation or winding up of Licensee.
 # 
-# Norway  
-# The CA subsidiary that is the licensor is Computer Associates Norway AS.
-# 
-# The third paragraph of the Preamble is deleted and replaced with:
-# By installing, copying or using the product or by typing "accept" below, you are:
-# (I) Representing that you are not a minor and have full legal capacity and have the authority to bind yourself and your employer, as applicable, to the terms of this Agreement;
-# (II) Consenting on behalf of yourself and/or as an authorized representative.
-# 
-# The following is added to the last paragraph of the Preamble:
-# In the event that you type "reject" below, the installation shall cease.  You should delete all copies of the Product from your computer systems and return, by registered first class post, the Product, complete with box and any documentation, to CA or the authorized reseller from whom you purchased the Product with your proof of purchase within thirty (30) days of the date of purchase.  You will promptly be issued a full refund of any license fees paid for the Product and, if applicable, maintenance fees paid.  If requested at the time of return and provided that receipts of costs incurred are provided, CA or the authorized reseller shall also refund to you any postage costs you incurred in returning the Product.
-# 
-# The second to last sentence of Section 2 is deleted and replaced with:
-# Beta products are provided on an "as is" basis, without warranties or representations of any kind, either express or implied including, without limitation, any warranties, conditions or representations of merchantability or satisfactory quality and fitness for a particular purpose, as well as any express warranties provided elsewhere in this Agreement.
-# 
-# The last sentence of Section 3 is deleted and replaced with:
-# Licensee’s use of the product during the trial period is on an "as is" basis without any warranty, and CA disclaims all warranties including, without limitation, any implied warranties or conditions of merchantability or satisfactory quality and fitness for a particular purpose, as well as any express warranties provided elsewhere in this Agreement. 
-# 
-# The seventh sentence of Section 8 is deleted and replaced with:
-# Licensee may not:
-# (I) Disclose, de-compile, disassemble nor otherwise reverse engineer the Product save to the extent expressly permitted by law;
-# (II) Create any derivative works based on the Product;
-# (III) Use the Product in connection with a service bureau or like activity whereby Licensee, without purchasing a license from CA for such purpose, operates or uses the Product for the benefit of a third party who has not purchased a copy of the Product;
-# (IV) Permit the use of the Product by any third party without the prior written consent of CA, save for contract staff of the Licensee who are acting on the Licensee’s business, not engaged in facilities management and who the Licensee agrees as a condition of this Agreement to ensure that such contract staff shall comply with all the terms of this Agreement, including without limitation, confidentiality provisions.
-# 
-# Section 10.(A) is deleted and replaced with:
-# No other warranties, whether express or implied, including, without limitation, any implied warranties or conditions of merchantability, satisfactory quality and fitness for a particular purpose, are made by CA.
-# 
-# The following is added at the end of Section 10:
-# The foregoing exclusions and limitations upon liability shall not apply to any liability for damages arising from:
-# a. Tangible property damage to the extent that such is due to the negligence of an employee or authorized agent of CA, in which event CA’s maximum liability shall be limited to $1,000,000 for each event or series of events.
-# b. Death or personal injury caused by the negligence of an employee or authorized agent of CA.
-# c. Willful misconduct or gross negligence of CA.
-# 
 # Peru
-# The CA subsidiary that is the licensor is Computer Associates de Peru S.A.
+# The CA subsidiary that is the licensor is CA de Peru S.A.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Peru.  Any dispute hereunder shall be determined by the Tribunales Ordinarios de La Cuidad de Lima.
 # 
 # The last sentence of Section 14 is deleted and replaced with:
-# Any questions concerning this Agreement should be referred to Computer Associates de Peru S.A, Avenida Paseo de La Republica, 3211, Piso 11, San Isidro, Lima 27, Peru - At.: Finance Department.
+# Any questions concerning this Agreement should be referred to CA de Peru S.A, Avenida Paseo de La Republica, 3211, Piso 11, San Isidro, Lima 27, Peru – At.: Finance Department.
 # 
 # Philippines
-# The CA subsidiary that is the licensor is Philippine Computer Associates International Inc.
+# The CA subsidiary that is the licensor is Philippine Computer Associates International, Inc.
 # 
-# The first seven sentences of Section 8 are deleted and replaced with:
-# Title to the Product and all modifications thereto shall remain with CA.  The Product is a trade secret and the proprietary property of CA or its licensors.  Usage rights respecting the Product may not be exchanged for any other CA product.  Licensee and its employees will keep the Product and the terms of this Agreement strictly confidential.  To the maximum extent permitted by applicable law, Licensee will not disclose, de-compile, disassemble nor otherwise reverse engineer the Product.
+# The first eight sentences of Section 8 are deleted and replaced with:
+# Title to the Product and all modifications thereto shall remain with CA.  The Product is a trade secret and the proprietary property of CA or its licensors.  Licensee agrees that CA may use any feedback provided by Licensee related to the Product for any CA business purpose, without requiring consent including reproduction and preparation of derivative works based upon such feedback, as well as distribution of such derivative works. Usage rights respecting the Product may not be exchanged for any other CA product.  Licensee and its employees will keep the Product and the terms of this Agreement strictly confidential.  To the maximum extent permitted by applicable law, Licensee will not disclose, de-compile, disassemble nor otherwise reverse engineer the Product.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
-# This Agreement shall be governed by and interpreted in accordance with the laws of the Philippines.  The courts of Makati City will have sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement.   
+# This Agreement shall be governed by and interpreted in accordance with the laws of the Philippines.  The courts of Makati City will have sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement.
 # 
 # Section 12 is deleted and replaced with:
 # If Licensee breaches any term of this Agreement or if Licensee becomes insolvent or if bankruptcy or receivership proceedings are initiated by or against Licensee, CA shall have the right to withhold its own performance hereunder and/or to terminate this Agreement immediately upon notice and, in addition to all other rights of CA, all amounts due or to become due hereunder will immediately be due and payable to CA.
 # 
-# Poland 
-# If payments are to be made in PLN, the last sentence of Section 6 is replaced as follows:
-# Any invoice which is unpaid by Licensee when due shall be subject to an interest charge equal to the lower of 1.5% per month or the statutory delay interest rate then applicable in Poland.
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# The laws of Poland govern this Agreement.
-# 
-# Section 12 is deleted and replaced with:
-# If Licensee breaches any term of this Agreement or if Licensee becomes insolvent or if bankruptcy or receivership proceedings are initiated by or against Licensee, CA shall have the right to withhold its own performance hereunder and/or, to the extent permitted by the applicable law, to terminate this Agreement immediately and, in addition to all other rights of CA, all amounts due or to become due hereunder will immediately be due and payable to CA.
-# 
-# Portugal 
-# The last sentence of Section 8 is deleted and replaced with:
-# Any dispute hereunder shall finally be determined by Lisbon Courts. 
-# 
-# Singapore 
-# The CA subsidiary that is the licensor is Computer Associates Pte. Ltd.
+# Singapore
+# The CA subsidiary that is the licensor is CA (Singapore) Pte. Ltd.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Singapore.  The courts of Singapore will have sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement.
 # 
 # The following is added to the end if Section 9:
-# To the full extent permitted by applicable law, CA disclaims all implied conditions or warranties of satisfactory quality or fitness for purpose. 
-# 
-# The following is added at the end of Section 10:
-# The limitation of liability set forth in this Section above will not apply to any breach of CA’s obligations implied by Section 12 of the Sales of Goods Act (Cap 393).  In addition, if you are a consumer, the limitation of liability will not apply to any breach of CA’s obligations implied by Sections 13, 14 or 15 of the Sale of Goods Act (Cap 393).
-# 
-# Sweden  
-# The CA subsidiary that is the licensor is Computer Associates Sweden AB.
-# 
-# The third paragraph of the Preamble is deleted and replaced with:
-# By installing, copying or using the product or by typing "accept" below, you are:
-# (I) Representing that you are not a minor and have full legal capacity and have the authority to bind yourself and your employer, as applicable, to the terms of this Agreement;
-# (II) Consenting on behalf of yourself and/or as an authorized representative.
-# 
-# The following is added to the last paragraph of the Preamble:
-# In the event that you type "reject" below, the installation shall cease.  You should delete all copies of the Product from your computer systems and return, by registered first class post, the Product, complete with box and any documentation, to CA or the authorized reseller from whom you purchased the Product with your proof of purchase within thirty (30) days of the date of purchase.  You will promptly be issued a full refund of any license fees paid for the Product and, if applicable, maintenance fees paid.  If requested at the time of return and provided that receipts of costs incurred are provided, CA or the authorized reseller shall also refund to you any postage costs you incurred in returning the Product.
-# 
-# The second to last sentence of Section 2 is deleted and replaced with:
-# Beta products are provided on an "as is" basis, without warranties or representations of any kind, either express or implied including, without limitation, any warranties, conditions or representations of merchantability or satisfactory quality and fitness for a particular purpose, as well as any express warranties provided elsewhere in this Agreement.
-# 
-# The last sentence of Section 3 is deleted and replaced with:
-# Licensee’s use of the product during the trial period is on an "as is" basis without any warranty, and CA disclaims all warranties including, without limitation, any implied warranties or conditions of merchantability or satisfactory quality and fitness for a particular purpose, as well as any express warranties provided elsewhere in this Agreement. 
-# 
-# The seventh sentence of Section 8 is deleted and replaced with:
-# Licensee may not:
-# (I) Disclose, de-compile, disassemble nor otherwise reverse engineer the Product save to the extent expressly permitted by law;
-# (II) Create any derivative works based on the Product;
-# (III) Use the Product in connection with a service bureau or like activity whereby Licensee, without purchasing a license from CA for that purpose, operates or uses the Product for the benefit of a third party who has not purchased a copy of the Product;
-# (IV) Permit the use of the Product by any third party without the prior written consent of CA, save for contract staff of the Licensee who are acting on the Licensee’s business, not engaged in facilities management and who the Licensee agrees as condition of this Agreement to ensure that such staff shall comply with all the terms of this Agreement, including without limitation, confidentiality provisions.
-# 
-# Section 10.(A) is deleted and replaced with:
-# No other warranties, whether express or implied, including, without limitation, any implied warranties or conditions of merchantability, satisfactory quality and fitness for a particular purpose, are made by CA.
-# 
-# The following is added at the end of Section 10:
-# The foregoing exclusions and limitations upon liability shall not apply to any liability for damages arising from: 
-# a. Tangible property damage to the extent that such is due to the negligence of an employee or authorized agent of CA, in which event CA’s maximum liability shall be limited to $1,000,000 for each event or series of events;
-# b. Death or personal injury caused by the negligence of an employee or authorized agent of CA;
-# c. Willful misconduct or gross negligence of CA.
-# 
-# 
-# Switzerland 
-# The following is added at the end of Section 1:
-# The place of performance of any duties of CA under this Agreement is Islandia, New York.
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# Any dispute hereunder shall be determined by a court of competent jurisdiction within the state of New York, U. S. A. 
+# To the full extent permitted by applicable law, CA disclaims all implied conditions or warranties of satisfactory quality or fitness for purpose.
 # 
 # Taiwan
-# The CA subsidiary that is the licensor is CA (Taiwan) Ltd.
+# The CA subsidiary that is the licensor is CA (Taiwan) Limited whose registered office is situated at 17F/B, No. 167, Tun Hwa North Road, Taipei City 105, Taiwan.
 # 
 # The second sentence of Section 6 is deleted and replaced with:
-# All fees are inclusive of VAT. 
+# All fees are exclusive of VAT.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Taiwan, without regard to its choice of law provisions.  Any dispute hereunder shall be determined by Taipei District Court.
 # 
 # Thailand
-# The CA subsidiary that is the licensor is Computer Associates Pte. Ltd.
+# The CA subsidiary that is the licensor is CA Sales (Thailand) Co., Ltd.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Thailand.  The courts of Thailand will have sole and exclusive jurisdiction with respect to any disputes arising out of this Agreement.
 # 
-# Turkey 
-# The following is added at the end of Section 8:
-# Licensee undertakes to keep all information of trade secret nature strictly private and confidential, and to use all necessary measures and its best efforts in order to assure and maintain the confidentiality thereof and to prevent and protect it, or any part thereof, from disclosure to any third person.  Furthermore, Licensee hereby expressly undertakes:
-# (I) Not to use a CA trade secret directly or indirectly in any respect or for whatever reason on its own behalf or on behalf of any third party or allow it to be used for any other purpose except as expressly permitted by CA;
-# (II) Not to disclose, de-compile, disassemble nor otherwise reverse engineer the Product and to avoid such a disclosure in whatever form; 
-# (III) Not to copy or permit the others to copy without CA’s prior written consent.
-# 
-# Licensee acknowledges that in the event of a breach of any one of the obligations imposed upon it under this Section, CA might suffer significant damage, notwithstanding the return of all copies of the Product, arising out of the fact that it has breached the aforesaid obligations.  Consequently, Licensee undertakes to indemnify CA in full against any such damage.
-# 
-# Licensee acknowledges that CA has the right to prevent any threat to confidentiality or restrain ongoing infringement or breach of confidentiality by Licensee through legal proceedings and in case an order is obtained against Licensee for breach, Licensee shall reimburse CA’s juridical costs and expenses including the attorney fees.
-# 
-# The following is added at the end of Section 9:
-# In the event that CA is rendered unable, wholly or in part, to perform or implement any of its warranties herein set forth, by force majeure which includes governmental controls or orders of the government of Turkey, acts of God, wars, commotion or riot, epidemics, strikes, lockouts and any other events or forces beyond its reasonable control, it shall be relieved from such warranties and shall not be held liable for the non-fulfillment and/or suspended implementation thereof, as long as and to the extent that the effect of such events or forces remains unabated.
-# 
-# The following is added at the end of the second sentence of Section 10:
-# EXCEPT THAT MAY ARISE FROM CA’S WILFUL FAULT OR NEGLIGENCE.
-# 
-# United Kingdom 
-# The CA subsidiary that is the licensor is Computer Associates Plc.
-# 
-# The third paragraph of the Preamble is deleted and replaced with:
-# By installing, copying or using the product or by typing "accept" below, you are:
-# (I) Representing that you are not a minor and have full legal capacity and have the authority to bind yourself and your employer, as applicable, to the terms of this Agreement;
-# (II) Consenting on behalf of yourself and/or as an authorized representative.
-# 
-# The following is added to the last paragraph of the Preamble:
-# In the event that you type "reject" below, the installation shall cease.  You should delete all copies of the Product from your computer systems and return, by registered first class post, the Product, complete with box and any documentation, to CA or the authorized reseller from whom you purchased the Product with your proof of purchase within thirty (30) days of the date of purchase.  You will promptly be issued a full refund of any license fees paid for the Product and, if applicable, maintenance fees paid.  If requested at the time of return and provided that receipts of costs incurred are provided, CA or the authorized reseller shall also refund to you any postage costs you incurred in returning the Product.
-# 
-# The second to last sentence of Section 2 is deleted and replaced with:
-# Beta products are provided on an "as is" basis, without warranties or representations of any kind, either express or implied including, without limitation, any warranties, conditions or representations of merchantability or satisfactory quality and fitness for a particular purpose, as well as any express warranties provided elsewhere in this Agreement.
-# 
-# The last sentence of Section 3 is deleted and replaced with:
-# Licensee’s use of the product during the trial period is on an "as is" basis without any warranty, and CA disclaims all warranties including, without limitation, any implied warranties or conditions of merchantability or satisfactory quality and fitness for a particular purpose, as well as any express warranties provided elsewhere in this Agreement. 
-# 
-# The seventh sentence of Section 8 is deleted and replaced with:
-# Licensee may not:
-# (I) Disclose, de-compile, disassemble nor otherwise reverse engineer the Product save to the extent expressly permitted by law; 
-# (II) Create any derivative works based on the Product;
-# (III) Use the Product in connection with a service bureau or like activity whereby Licensee, without purchasing a license from CA for that purpose, operates or uses the Product for the benefit of a third party who has not purchased a copy of the Product;
-# (IV) Permit the use of the Product by any third party without the prior written consent of CA, save for contract staff of the Licensee who are acting on the Licensee’s business, not engaged in facilities management and who the Licensee agrees as a condition of this Agreement to ensure that such contract staff shall comply with all the terms of this Agreement, including without limitation, confidentiality provisions.
-# 
-# The last sentence of Section 8 is deleted and replaced with:
-# All disputes relating to this Agreement will be governed by the laws of England and Wales and will be submitted to the exclusive jurisdiction of the English courts.
-# 
-# Section 10.(A) is deleted and replaced with:
-# No other warranties, whether express or implied, including, without limitation, any implied warranties or conditions of merchantability, satisfactory quality and fitness for a particular purpose, are made by CA.
-# 
-# The following is added at the end of Section 10:
-# The foregoing exclusions and limitations upon liability shall not apply to any liability for damages arising from:
-# a. Tangible property damage to the extent that such is due to the negligence of an employee or authorized agent of CA, in which event CA’s maximum liability shall be limited to $1,000,000 for each event or series of events;
-# b. Death or personal injury caused by the negligence of an employee or authorized agent of CA;
-# c. Willful misconduct or gross negligence of CA.
-# 
 # Venezuela
-# The CA subsidiary that is the licensor is Computer Associates de Venezuela, CA.
+# The CA subsidiary that is the licensor is Computer Associates (CAI) de Venezuela, CA.
 # 
 # The last sentence of Section 8 is deleted and replaced with:
 # This Agreement shall be governed by and interpreted in accordance with the laws of Venezuela. Any dispute hereunder shall be determined by the Tribunales Ordinarios de la Cuidad de Caracas.
 # 
 # The last sentence of Section 14 is deleted and replaced with:
-# Any questions concerning this Agreement should be referred to Computer Associates de Venezuela, CA, Avenida Principal de La Castellana - Centro Letonia, Torre ING Bank, Piso 10, Oficina 105 - 1060 - Caracas - Venezuela - At.: Finance Department.
+# Any questions concerning this Agreement should be referred to Computer Associates (CAI) de Venezuela, CA, Avenue Francisco de Miranda, Centro Lido, Torre B, pisso 5, officina B-51, El Rosal, Caracas 1060, Venezuela – At.: Finance Department.
 # 
-# 16.  If the Product contains third party software, and the licensor requires the incorporation of specific license terms and conditions for such software into this Agreement, those specific terms and conditions, which are hereby incorporated by this reference, are located below this Agreement.  
+# 16.  If the Product contains third party software, and the licensor requires the incorporation of specific license terms and conditions for such software into this Agreement, those specific terms and conditions, which are hereby incorporated by this reference, are located below this Agreement.
 # 
 # Licensee acknowledges that this license has been read and understood and by typing "accept" below, licensee accepts its terms and conditions.  Licensee also agrees that this license (including any order form referencing this Agreement and any terms relating to third party software which are set forth below this Agreement) constitutes the complete Agreement between the parties regarding this subject matter and that it supersedes any information licensee has received relating to the subject matter of this Agreement, except that this Agreement (excluding the third party terms below) will be superseded by any written Agreement, executed by both licensee and CA, granting licensee a license to use the product.  This Agreement may only be amended by a written Agreement signed by authorized representatives of both parties.  
 # 
@@ -2140,12 +1862,18 @@
 # This product includes software developed at
 # The Apache Software Foundation (http://www.apache.org/).
 # 
+# #### TPSR ID:  P04842_41    
+# ##   Component Name:  GNU JavaBeans Activation Framework (JAF) 
+# ##   Version 1.0
+# 
 # JAF 1.0
+# This product is distributed with JAF 1.0 (the "LGPL Software"), the use of which is governed by the following terms:
 # 
-# This product is distributed with JAF 1.0 (the ?LGPL Software?), the use of which is governed by the following terms:
+# The LGPL Software is open source software that is used with this CA software program (the CA Product). The LGPL Software is not owned by CA, Inc. ("CA").  Use, copying, distribution and modification of the LGPL Software are governed by the GNU Lesser General Public License ("LGPL") version 2.1.  A copy of the LGPL license can be found in the same directory on the installation disk on which the LGPL Software is distributed.  Additionally, a copy of the LGPL license can be found at http://www.opensource.org/licenses/lgpl-2.1.php or write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.  CA makes the source code for the LGPL Software available at http://opensrcd.ca.com, and includes a copy of the source code on the same disk as the executable code. Use of the CA Product is governed solely by the CA end user license agreement ("EULA"), not by the LGPL license.  You cannot use, copy, modify or redistribute any CA Product code except as may be expressly set forth in the EULA.  The LGPL Software is provided "AS IS" WITHOUT WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  Further details of the disclaimer of warranty with respect to the LGPL Software can be found in the LGPL license itself.  To the full extent permitted under applicable law, CA disclaims all warranties and liability arising from or related to any use of the LGPL Software. 
 # 
-# The LGPL Software is open source software that is used with this CA software program (the CA Product). The LGPL Software is not owned by CA, Inc. (?CA?).  Use, copying, distribution and modification of the LGPL Software are governed by the GNU Lesser General Public License (?LGPL?) version 2.1.  A copy of the LGPL license can be found in the same directory on the installation disk on which the LGPL Software is distributed.  Additionally, a copy of the LGPL license can be found at http://www.opensource.org/licenses/lgpl-2.1.php or write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.  CA makes the source code for the LGPL Software available at http://opensrcd.ca.com, and includes a copy of the source code on the same disk as the executable code. Use of the CA Product is governed solely by the CA end user license agreement (?EULA?), not by the LGPL license.  You cannot use, copy, modify or redistribute any CA Product code except as may be expressly set forth in the EULA.  The LGPL Software is provided ?AS IS? WITHOUT WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  Further details of the disclaimer of warranty with respect to the LGPL Software can be found in the LGPL license itself.  To the full extent permitted under applicable law, CA disclaims all warranties and liability arising from or related to any use of the LGPL Software. 
 # 
+# ####End of TPSR ID:  P04842_41 
+# ######## -------------------------------------------------------------------
 # 
 # 
 # Eclipse Foundation Software User Agreement
@@ -2982,21 +2710,19 @@
 # # end # TPSR #: 10860_19
 # -----#####
 #  
-# ===================
-# Hibernate 3.2.1
-# ===================
-# This product is distributed with Hibernate 3.2.1 (the ?LGPL Software?), the use of which is governed by the following terms:
+# #### TPSR ID:  P05124_8    
+# ##   Component Name:  XOM 
+# ##   Version 1.0
 # 
-# The LGPL Software is open source software that is used with this CA software program (the CA Product). The LGPL Software is not owned by CA, Inc. (?CA?).  Use, copying, distribution and modification of the LGPL Software are governed by the GNU Lesser General Public License (?LGPL?) version 2.1.  A copy of the LGPL license can be found in the same directory on the installation disk on which the LGPL Software is distributed.  Additionally, a copy of the LGPL license can be found at http://www.opensource.org/licenses/lgpl-2.1.php or write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.  CA makes the source code for the LGPL Software available at http://opensrcd.ca.com, and includes a copy of the source code on the same disk as the executable code. Use of the CA Product is governed solely by the CA end user license agreement (?EULA?), not by the LGPL license.  You cannot use, copy, modify or redistribute any CA Product code except as may be expressly set forth in the EULA.  The LGPL Software is provided ?AS IS? WITHOUT WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  Further details of the disclaimer of warranty with respect to the LGPL Software can be found in the LGPL license itself.  To the full extent permitted under applicable law, CA disclaims all warranties and liability arising from or related to any use of the LGPL Software.  
-# 
-# 
-# ---------------------------------------------------------------------
 # XOM 1.0
 # 
-# This product is distributed with XOM 1.0  (the ?LGPL Software?), the use of which is governed by the following terms:
+# This product is distributed with XOM 1.0  (the "LGPL Software"), the use of which is governed by the following terms:
 # 
-# The LGPL Software is open source software that is used with this CA software program (the CA Product). The LGPL Software is not owned by CA, Inc. (?CA?).  Use, copying, distribution and modification of the LGPL Software are governed by the GNU Lesser General Public License (?LGPL?) version 2.1.  A copy of the LGPL license can be found in the same directory on the installation disk on which the LGPL Software is distributed.  Additionally, a copy of the LGPL license can be found at http://www.opensource.org/licenses/lgpl-2.1.php or write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.  CA makes the source code for the LGPL Software available at http://opensrcd.ca.com, and includes a copy of the source code on the same disk as the executable code. Use of the CA Product is governed solely by the CA end user license agreement (?EULA?), not by the LGPL license.  You cannot use, copy, modify or redistribute any CA Product code except as may be expressly set forth in the EULA.  The LGPL Software is provided ?AS IS? WITHOUT WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  Further details of the disclaimer of warranty with respect to the LGPL Software can be found in the LGPL license itself.  To the full extent permitted under applicable law, CA disclaims all warranties and liability arising from or related to any use of the LGPL Software.  
-# ---------------------------------------------------------------------
+# The LGPL Software is open source software that is used with this CA software program (the CA Product). The LGPL Software is not owned by CA, Inc. ("CA").  Use, copying, distribution and modification of the LGPL Software are governed by the GNU Lesser General Public License ("LGPL") version 2.1.  A copy of the LGPL license can be found in the same directory on the installation disk on which the LGPL Software is distributed.  Additionally, a copy of the LGPL license can be found at http://www.opensource.org/licenses/lgpl-2.1.php or write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.  CA makes the source code for the LGPL Software available at http://opensrcd.ca.com, and includes a copy of the source code on the same disk as the executable code. Use of the CA Product is governed solely by the CA end user license agreement ("EULA"), not by the LGPL license.  You cannot use, copy, modify or redistribute any CA Product code except as may be expressly set forth in the EULA.  The LGPL Software is provided "AS IS" WITHOUT WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  Further details of the disclaimer of warranty with respect to the LGPL Software can be found in the LGPL license itself.  To the full extent permitted under applicable law, CA disclaims all warranties and liability arising from or related to any use of the LGPL Software.  
+# 
+# 
+# ####End of TPSR ID:  P05124_8 
+# -----#####
 # 
 # #####-----
 # -------------------------------
@@ -3045,33 +2771,23 @@
 # 
 # #####-----
 # -------------------------------
-# # TPSR #: 09103_5
-# # Component Name:       SpringSource SpringFramework v.3.0.4
+# # TPSR #: 12907_6
+# # Component Name:       Spring Framework 3.2.2.RELEASE
 # ------------------------------------
 # 
-#    ======================================================================
-#    == NOTICE file corresponding to section 4 d of the Apache License,  ==
-#    == Version 2.0, for the Spring Framework distribution.              ==
-#    ======================================================================
+# Spring Framework 3.2.2.RELEASE
+# Copyright (c) 2002-2013 SpringSource, a division of VMware, Inc.
 # 
-#    This product includes software developed by
-#    the Apache Software Foundation (http://www.apache.org).
+# This product is licensed to you under the Apache License, Version 2.0
+# (the "License"). You may not use this product except in compliance with
+# the License.
 # 
-#    The end-user documentation included with a redistribution, if any,
-#    must include the following acknowledgement:
+# This product may include a number of subcomponents with separate
+# copyright notices and license terms. Your use of the source code for
+# these subcomponents is subject to the terms and conditions of the
+# subcomponent's license, as noted in the license.txt file.
 # 
-#      "This product includes software developed by the Spring Framework
-#       Project (http://www.springframework.org)."
-# 
-#    Alternately, this acknowledgement may appear in the software itself,
-#    if and wherever such third-party acknowledgements normally appear.
-# 
-#    The names "Spring", "Spring Framework", and "Spring Web Flow" must
-#    not be used to endorse or promote products derived from this
-#    software without prior written permission. For written permission,
-#    please contact enquiries@springsource.com.
-# 
-# # end # TPSR #: 09103_5
+# # end # TPSR #: 12907_6
 # -----#####
 # 
 # #####-----
@@ -3145,30 +2861,6 @@
 # 
 # #####-----
 # -------------------------------
-# # TPSR #: P05029_7
-# # Component Name:       JHotDraw
-# ------------------------------------
-# 
-#   JHotDraw 5.3; JasperReports 1.3.3; JFreeCharts 1.0.8
-#   The above-referenced libraries (collectively, the "LGPL Software") are open source software libraries that are used with the CA Wily Introscope software ("Introscope"). The LGPL Software is not owned by CA, Inc. ("CA").  Use, copying, distribution and modification of the LGPL Software is governed by the GNU Lesser General Public License ("LGPL") version 2.1.  A copy of the LGPL license can be found at http://opensrcd.ca.com/ips/osgi/ in the archive file in which the LGPL Software is distributed.  Additionally, a copy of the LGPL license can be found at http://www.opensource.org/licenses/lgpl-2.1.php or write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.  CA makes the source code for the LGPL Software, including any modifications, available at http://opensrcd.ca.com/ips/osgi/, and includes a copy of the source code in the same archive file as the executable code. Use of the Introscope software is governed solely by the CA end user license agreement ("EULA"), not by the LGPL license.  You cannot use, copy, modify or redistribute any Introscope code except as may be expressly set forth in the EULA.  The LGPL Software is provided "AS IS" WITHOUT WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  Further details of the disclaimer of warranty with respect to the LGPL Software can be found in the LGPL license itself.  To the full extent permitted under applicable law, CA disclaims all warranties and liability arising from or related to any use of the LGPL Software.
-#   
-# # end # TPSR #: P05029_7
-# -----#####
-# JCommon 1.0.12
-# --------------
-# 
-# This product is distributed with JCommon 1.0.12 (the "LGPL Software"), the use of which is governed by the following terms:
-# 
-# The LGPL Software is open source software that is used with this CA software program (the CA Product). The LGPL Software is not owned by CA, Inc. ("CA").  Use, copying, distribution and modification of the LGPL Software are governed by the GNU Lesser General Public License ("LGPL") version 2.1.  A copy of the LGPL license can be found in the same directory on the installation disk on which the LGPL Software is distributed.  Additionally, a copy of the LGPL license can be found at http://www.opensource.org/licenses/lgpl-2.1.php or write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.  CA makes the source code for the LGPL Software available at http://opensrcd.ca.com, and includes a copy of the source code on the same disk as the executable code. Use of the CA Product is governed solely by the CA end user license agreement ("EULA"), not by the LGPL license.  You cannot use, copy, modify or redistribute any CA Product code except as may be expressly set forth in the EULA.  The LGPL Software is provided "AS IS" WITHOUT WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  Further details of the disclaimer of warranty with respect to the LGPL Software can be found in the LGPL license itself.  To the full extent permitted under applicable law, CA disclaims all warranties and liability arising from or related to any use of the LGPL Software. 
-# 
-# jTDS 1.0.2
-# ---------------
-# This product is distributed with jTDS 1.0.2 (the ?LGPL Software?), the use of which is governed by the following terms:
-# 
-# The LGPL Software is open source software that is used with this CA software program (the CA Product). The LGPL Software is not owned by CA, Inc. (?CA?).  Use, copying, distribution and modification of the LGPL Software are governed by the GNU Lesser General Public License (?LGPL?) version 2.1.  A copy of the LGPL license can be found in the same directory on the installation disk on which the LGPL Software is distributed.  Additionally, a copy of the LGPL license can be found at http://www.opensource.org/licenses/lgpl-2.1.php or write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.  CA makes the source code for the LGPL Software available at http://opensrcd.ca.com, and includes a copy of the source code on the same disk as the executable code. Use of the CA Product is governed solely by the CA end user license agreement (?EULA?), not by the LGPL license.  You cannot use, copy, modify or redistribute any CA Product code except as may be expressly set forth in the EULA.  The LGPL Software is provided ?AS IS? WITHOUT WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  Further details of the disclaimer of warranty with respect to the LGPL Software can be found in the LGPL license itself.  To the full extent permitted under applicable law, CA disclaims all warranties and liability arising from or related to any use of the LGPL Software.  
-# 
-# #####-----
-# -------------------------------
 # # TPSR #: 11958_25
 # # Component Name: Commons Logging 1.1.1
 # ------------------------------------
@@ -3179,6 +2871,97 @@
 # The Apache Software Foundation (http://www.apache.org/).
 # 
 # # end # TPSR #: 11958_25
+# -----#####
+# 
+# #### TPSR ID:  00000086_6 
+# ##   Component Name:  Jetty
+# ##   Version 6.1.25
+# 
+# ==============================================================
+#  Jetty Web Container 
+#  Copyright 1995-2009 Mort Bay Consulting Pty Ltd
+# ==============================================================
+# 
+# The Jetty Web Container is Copyright Mort Bay Consulting Pty Ltd
+# unless otherwise noted. It is licensed under the apache 2.0
+# license.
+# 
+# The javax.servlet package used by Jetty is copyright 
+# Sun Microsystems, Inc and Apache Software Foundation. It is 
+# distributed under the Common Development and Distribution License.
+# You can obtain a copy of the license at 
+# https://glassfish.dev.java.net/public/CDDLv1.0.html.
+# 
+# The UnixCrypt.java code ~Implements the one way cryptography used by
+# Unix systems for simple password protection.  Copyright 1996 Aki Yoshida,
+# modified April 2001  by Iris Van den Broeke, Daniel Deville.
+# Permission to use, copy, modify and distribute UnixCrypt 
+# for non-commercial or commercial purposes and without fee is
+# granted provided that the copyright notice appears in all copies.
+# 
+# The default JSP implementation is provided by the Glassfish JSP engine
+# from project Glassfish http://glassfish.dev.java.net.  Copyright 2005
+# Sun Microsystems, Inc. and portions Copyright Apache Software Foundation.
+# 
+# Some portions of the code are Copyright:
+#   2006 Tim Vernum 
+#   1999 Jason Gilbert.
+# 
+# The jboss integration module contains some LGPL code.
+# 
+# The win32 Java Service Wrapper (v3.2.3) is Copyright (c) 1999, 2006 
+# Tanuki Software, Inc.  and 2001 Silver Egg Technology.  It is 
+# covered by an open license which is viewable at
+# http://svn.codehaus.org/jetty/jetty/branches/jetty-6.1/extras/win32service/LICENSE.txt
+# 
+# 
+# 
+# end # TPSR #: 00000086_6
+# -----#####
+# 
+# #### TPSR ID:  11050_15
+# ##   Component Name:  Jetty
+# ##   Version 6.1.26
+# 
+# ==============================================================
+#  Jetty Web Container 
+#  Copyright 1995-2009 Mort Bay Consulting Pty Ltd
+# ==============================================================
+# 
+# The Jetty Web Container is Copyright Mort Bay Consulting Pty Ltd
+# unless otherwise noted. It is licensed under the apache 2.0
+# license.
+# 
+# The javax.servlet package used by Jetty is copyright 
+# Sun Microsystems, Inc and Apache Software Foundation. It is 
+# distributed under the Common Development and Distribution License.
+# You can obtain a copy of the license at 
+# https://glassfish.dev.java.net/public/CDDLv1.0.html.
+# 
+# The UnixCrypt.java code ~Implements the one way cryptography used by
+# Unix systems for simple password protection.  Copyright 1996 Aki Yoshida,
+# modified April 2001  by Iris Van den Broeke, Daniel Deville.
+# Permission to use, copy, modify and distribute UnixCrypt 
+# for non-commercial or commercial purposes and without fee is
+# granted provided that the copyright notice appears in all copies.
+# 
+# The default JSP implementation is provided by the Glassfish JSP engine
+# from project Glassfish http://glassfish.dev.java.net.  Copyright 2005
+# Sun Microsystems, Inc. and portions Copyright Apache Software Foundation.
+# 
+# Some portions of the code are Copyright:
+#   2006 Tim Vernum 
+#   1999 Jason Gilbert.
+# 
+# The jboss integration module contains some LGPL code.
+# 
+# The win32 Java Service Wrapper (v3.2.3) is Copyright (c) 1999, 2006 
+# Tanuki Software, Inc.  and 2001 Silver Egg Technology.  It is 
+# covered by an open license which is viewable at
+# http://svn.codehaus.org/jetty/jetty/branches/jetty-6.1/extras/win32service/LICENSE.txt
+# 
+# 
+# end # TPSR #: 11050_15
 # -----#####
 # 
 # #### TPSR ID:  12906_11     
@@ -3193,8 +2976,11 @@
 # ####End of TPSR ID:  12906_11 
 # ######## -------------------------------------------------------------------
 # 
-# Last updated 2012-02-02
+# Last updated 2014-08-20
+# 
 # Type "accept" below to accept the terms and conditions of this Agreement as set forth above and proceed with the installation process.
+# 
 # Type "reject" below to halt the installation process.
-# The set of valid values for CA-EULA is: {accept, reject}. 
+# 
+# The set of valid values for CA-EULA is: {accept, reject}.
 CA-EULA=accept
