@@ -1,0 +1,36 @@
+#
+# Description:
+# ------------
+#
+# This is a small test case that creates an enterprise manager with its database,
+# a webview and a small sample EPAgent that sends data (to verify that the
+# setup is valid)
+#
+
+em:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - db:db
+  ports:
+    - "5001:5001"
+    - "8081:8081"
+  environment:
+    - HEAP="2048m"
+  volumes:
+    # management module location
+    - ~/mm:/root/Introscope/config/modules
+
+db:
+  build: database/9.6.0.0
+
+webview:
+  build: webview/9.6.0.0
+  links:
+    - em:em
+  ports:
+    - "8080:8080"
+
+sample:
+  build: sample/9.6.0.0
+  links:
+    - em:em

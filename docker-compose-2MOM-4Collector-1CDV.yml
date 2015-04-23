@@ -1,0 +1,146 @@
+#
+# Description:
+# ------------
+#
+# This is quite a big test case that creates:
+# - 2 MOM (this could be testing and production stages)
+# - 4 Collectors (two connected to each MOM)
+# - 1 cross-cluster viewer accessing all 4 collectors.
+# - 3 webviews - two for the MOMs and one for the CDV
+# - 7 databases (each enterprise manager gets one)
+# - 4 sample applications (one connected to each collector)
+
+# CDV
+
+cdv:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - cdvdb:db
+    - collector1:em1
+    - collector2:em2
+    - collector3:em3
+    - collector4:em4
+  environment:
+    - HEAP=1024m
+    - CLUSTER_ROLE=CDV
+
+cdvdb:
+  build: database/9.6.0.0
+
+cdvwebview:
+  build: webview/9.6.0.0
+  links:
+    - cdv:em
+  ports:
+    - "8080:8080"
+
+# MOMs
+
+mom1:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - momdb1:db
+    - collector1:em1
+    - collector2:em2
+  environment:
+    - HEAP=1024m
+    - CLUSTER_ROLE=MOM
+
+momdb1:
+  build: database/9.6.0.0
+
+momwebview1:
+  build: webview/9.6.0.0
+  links:
+    - mom1:em
+  ports:
+    - "8081:8080"
+
+
+mom2:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - momdb2:db
+    - collector3:em1
+    - collector4:em2
+  environment:
+    - HEAP=1024m
+    - CLUSTER_ROLE=MOM
+
+momdb2:
+  build: database/9.6.0.0
+
+momwebview2:
+  build: webview/9.6.0.0
+  links:
+    - mom2:em
+  ports:
+    - "8082:8080"
+
+
+
+# Collectors
+
+collector1:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - collector1db:db
+  environment:
+    - HEAP=1024m
+    - CLUSTER_ROLE=Collector
+
+collector1db:
+  build: database/9.6.0.0
+
+sample1:
+  build: sample/9.6.0.0
+  links:
+    - collector1:em
+
+collector2:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - collector2db:db
+  environment:
+    - HEAP=1024m
+    - CLUSTER_ROLE=Collector
+
+collector2db:
+  build: database/9.6.0.0
+
+sample2:
+  build: sample/9.6.0.0
+  links:
+    - collector2:em
+
+collector3:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - collector3db:db
+  environment:
+    - HEAP=1024m
+    - CLUSTER_ROLE=Collector
+
+collector3db:
+  build: database/9.6.0.0
+
+sample3:
+  build: sample/9.6.0.0
+  links:
+    - collector3:em
+
+collector4:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - collector4db:db
+  environment:
+    - HEAP=1024m
+    - CLUSTER_ROLE=Collector
+
+collector4db:
+  build: database/9.6.0.0
+
+sample4:
+  build: sample/9.6.0.0
+  links:
+    - collector4:em

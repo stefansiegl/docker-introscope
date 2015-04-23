@@ -1,0 +1,66 @@
+#
+# Description:
+# ------------
+#
+# This is a small test case that creates two enterprise managers running in Collector mode (each having their
+# own database). For each of these collectors a sample application (simple EPAgent) is connected in order for
+# us to see some data.
+# A central enterprise manager running as cross-cluster-viewer (cdv) is used to read the data from these
+# enterprise managers and provide them with a webui.
+#
+# A similar example (with added MOMs) can also be run in production like environments. This shows how easy
+# the setup of Introscope can be with the help of Docker.
+#
+
+
+cdv:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - cdvdb:db
+    - collector1:em1
+    - collector2:em2
+  environment:
+    - HEAP=1024m
+    - CLUSTER_ROLE=CDV
+
+cdvdb:
+  build: database/9.6.0.0
+
+cdvwebview:
+  build: webview/9.6.0.0
+  links:
+    - cdv:em
+  ports:
+    - "8080:8080"
+
+collector1:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - collector1db:db
+  environment:
+    - HEAP=1024m
+    - CLUSTER_ROLE=Collector
+
+collector1db:
+  build: database/9.6.0.0
+
+sample1:
+  build: sample/9.6.0.0
+  links:
+    - collector1:em
+
+collector2:
+  build: enterprise-manager/9.6.0.0
+  links:
+    - collector2db:db
+  environment:
+    - HEAP=1024m
+    - CLUSTER_ROLE=Collector
+
+collector2db:
+  build: database/9.6.0.0
+
+sample2:
+  build: sample/9.6.0.0
+  links:
+    - collector2:em

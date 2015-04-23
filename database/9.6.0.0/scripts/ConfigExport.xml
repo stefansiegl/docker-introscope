@@ -1,0 +1,62 @@
+<!DOCTYPE ConfigurationItems SYSTEM "ConfigExport.dtd"> 
+<ConfigurationItems>
+  <JdbcBatchSize>500</JdbcBatchSize>
+  <IncludedTables>
+ <IncludeTable name="tang_config" primaryKeys="ts_id"/>
+    <IncludeTable name="tang_event_types" primaryKeys="ts_id"/>  
+    <IncludeTable name="ts_app_auth_types" primaryKeys="ts_id"/> 
+  	<IncludeTable name="ts_apps" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_app_types" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_attributes" primaryKeys="ts_id"/>  	
+  	<IncludeTable name="ts_autogen_params" primaryKeys="ts_id, ts_param_type, ts_name"/>
+  	<IncludeTable name="ts_autogen_template" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_bizdef_filters" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_child_services_def" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_defect_defs" primaryKeys="ts_id"/> 
+  	<IncludeTable name="ts_defect_importances" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_defect_meta_keys" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_domains" primaryKeys="ts_id"/>  	
+  	<IncludeTable name="ts_impact_settings" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_interim_session_id_params" primaryKeys="ts_app_id, ts_type, ts_name, ts_id_type"/>
+  	<IncludeTable name="ts_introscope_configs" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_introscope_ems" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_login_id_parameters" primaryKeys="ts_app_id, ts_type, ts_name"/>
+  	<IncludeTable name="ts_monitor_types" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_monitors" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_operator_role_map" primaryKeys="ts_operator_id, ts_role_id"/>
+  	<IncludeTable name="ts_operators" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_params" primaryKeys="ts_trancomp_id, ts_param_type, ts_name"/>
+  	<IncludeTable name="ts_private_parameters" primaryKeys="ts_id"/>	
+  	<IncludeTable name="ts_protocols" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_recording_components" primaryKeys="ts_id"/> 
+  	<IncludeTable name="ts_recording_sessions" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_report_types" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_report_param_keys" primaryKeys="ts_id"/> 
+  	<IncludeTable name="ts_report_type_param_values" primaryKeys="ts_id"/>
+	<IncludeTable name="ts_report_def_param_values" primaryKeys="ts_id"/>  	
+	<IncludeTable name="ts_report_defs" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_roles" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_services_def" primaryKeys="ts_id"/>  	
+  	<IncludeTable name="ts_session_id_parameters" primaryKeys="ts_app_id, ts_type, ts_name, ts_id_type"/>
+  	<IncludeTable name="ts_settings" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_sm_groups" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_sm_policy_servers" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_sm_web_servers" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_trancomps" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_tran_def_groups" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_tran_importances" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_tran_types" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_transet_groups" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_transetgroup_transets_map" primaryKeys="ts_transet_id, ts_transet_incarnation_id, ts_transet_group_id"/>
+  	<IncludeTable name="ts_transets" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_tranunits" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_user_def_groups" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_user_groups" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_usergroup_id_parameters" primaryKeys="ts_app_id, ts_type, ts_name"/>
+  	<IncludeTable name="ts_usergroup_users_map" primaryKeys="ts_user_id, ts_user_incarnation_id, ts_usergroup_id"/>
+  	<IncludeTable name="ts_user_importances" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_user_logins_map" primaryKeys="ts_app_id, ts_login_name"/>
+  	<IncludeTable name="ts_users" primaryKeys="ts_id"/>
+  	<IncludeTable name="ts_web_servers" primaryKeys="ts_id"/>
+  </IncludedTables>
+</ConfigurationItems>

@@ -1,0 +1,9 @@
+<!ELEMENT ConfigurationItems (JdbcDriverClass, JdbcUrl, JdbcBatchSize, IncludedTables) >
+<!ELEMENT JdbcDriverClass (#PCDATA)> 
+<!ELEMENT JdbcUrl (#PCDATA)>
+<!ELEMENT JdbcBatchSize (#PCDATA)>
+<!ELEMENT IncludedTables (IncludeTable+) > 
+<!ELEMENT IncludeTable EMPTY>
+<!ATTLIST IncludeTable 
+  name CDATA #REQUIRED
+  primaryKeys CDATA #REQUIRED>

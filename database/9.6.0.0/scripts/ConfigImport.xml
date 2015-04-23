@@ -1,0 +1,6 @@
+<ConfigurationItems>
+  <JdbcBatchSize>2500</JdbcBatchSize>
+  <JdbcDriverClass>org.postgresql.Driver</JdbcDriverClass>
+  <JdbcUrl>jdbc:postgresql://0.0.0.0:5432/cemdb</JdbcUrl>
+  <PromptBeforeImport>false</PromptBeforeImport>
+</ConfigurationItems>
