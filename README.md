@@ -94,6 +94,8 @@ Environment variables can be set for example by
 -e HEAP_XMX="2048m"
 ```
 
+Topic | description
+---|---|
 Binaries | Place introscope[version]otherUnix.jar (example: introscope9.6.0.0otherUnix.jar) and osgiPackages.[version].unix.tar (example: osgiPackages.v9.6.0.0.unix.tar) in the folder
 Build    | Execute build-image.sh
 Run      | Execute run-default-em-container.sh (or use docker-compose - recommended)
@@ -104,6 +106,8 @@ This image is built with the idea that the ports are not provided to the open (n
 
 Data is currently written to the "postgres" schema with the postgres user. As nobody else should use this database I expect this to be fine and it makes it easier for me as I did not have to create users and schematas.
 
+Topic | description
+---|---|
 Binaries | -
 Build    | Execute build-image.sh
 Run      | Execute run-default-postgres-container.sh (or use docker-compose - recommended)
@@ -112,6 +116,8 @@ Run      | Execute run-default-postgres-container.sh (or use docker-compose - re
 
 Basically this image mirrors the enterprise manager in many ways. I figured that it might be easier to have this as a separate image and not within the enterprise-manager image as this would complicate the scripts.
 
+Topic | description
+---|---|
 Binaries | Place introscope[version]otherUnix.jar (example: introscope9.6.0.0otherUnix.jar) and osgiPackages.[version].unix.tar (example: osgiPackages.v9.6.0.0.unix.tar) in the folder
 Build    | Execute build-image.sh
 Run      | Execute run-default-webview-container.sh (or use docker-compose - recommended)
@@ -120,6 +126,8 @@ Run      | Execute run-default-webview-container.sh (or use docker-compose - rec
 
 This is really just a very small EPAgent sample application. I included this, as I want to have a sample application for testing purposes. So I thought why not put it here as well.
 
+Topic | description
+---|---|
 Binaries | Place EPAgent[version]unix.tar (example: EPAgent9.6.0.0unix.tar) in the folder
 Build    | Execute build-image.sh
 Run      | Execute run-default-sample-container.sh (or use docker-compose - recommended)
