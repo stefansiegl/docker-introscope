@@ -6,7 +6,7 @@ final_script=/docker-entrypoint-initdb.d/installDatabasesForIntroscope.sh
 #final_script=/tmp/installDatabasesForIntroscope.sh
 script_dir=scripts
 dbversion=9.6.0.0
-sql_files=( $script_dir/createtables-postgres-$dbversion.sql $script_dir/createsequences-postgres-$dbversion.sql $script_dir/addindexes-postgres-$dbversion.sql $script_dir/addconstraints-postgres-$dbversion.sql $script_dir/addviews-postgres-$dbversion.sql $script_dir/quartz-1.5.1-postgres.sql $script_dir/defaults-postgres-$dbversion.sql $script_dir/initdb-postgres-$dbversion.sql $script_dir/create-apm-tables-postgres-$dbversion.sql $script_dir/create-apm-sequences-postgres-$dbversion.sql $script_dir/add-apm-indexes-postgres-$dbversion.sql $script_dir/add-apm-constraints-postgres-$dbversion.sql $script_dir/apm-defaults-postgres-$dbversion.sql $script_dir/$script_dir/apm-procedures-postgres-$dbversion.sql)
+sql_files=( $script_dir/createtables-postgres-$dbversion.sql $script_dir/createsequences-postgres-$dbversion.sql $script_dir/addindexes-postgres-$dbversion.sql $script_dir/addconstraints-postgres-$dbversion.sql $script_dir/addviews-postgres-$dbversion.sql $script_dir/quartz-1.5.1-postgres.sql $script_dir/defaults-postgres-$dbversion.sql $script_dir/initdb-postgres-$dbversion.sql $script_dir/create-apm-tables-postgres-$dbversion.sql $script_dir/create-apm-sequences-postgres-$dbversion.sql $script_dir/add-apm-indexes-postgres-$dbversion.sql $script_dir/add-apm-constraints-postgres-$dbversion.sql $script_dir/apm-defaults-postgres-$dbversion.sql $script_dir/apm-procedures-postgres-$dbversion.sql)
 # removed $script_dir/add-apm-pruning-function-postgres-$dbversion.sql --> not available for 9.6.0.0
 
 # remove the file if it is already there
