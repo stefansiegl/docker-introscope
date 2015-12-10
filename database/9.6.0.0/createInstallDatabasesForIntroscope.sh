@@ -2,12 +2,12 @@
 
 # build the script to enter the initial data to the introscope database.
 
-final_script=/docker-entrypoint-initdb.d/installDatabasesForIntroscope.sh
+final_script=/docker-entrypoint-initdb.d/000-installDatabasesForIntroscope.sh
 #final_script=/tmp/installDatabasesForIntroscope.sh
 script_dir=scripts
 dbversion=9.6.0.0
-sql_files=( $script_dir/createtables-postgres-$dbversion.sql $script_dir/createsequences-postgres-$dbversion.sql $script_dir/addindexes-postgres-$dbversion.sql $script_dir/addconstraints-postgres-$dbversion.sql $script_dir/addviews-postgres-$dbversion.sql $script_dir/quartz-1.5.1-postgres.sql $script_dir/defaults-postgres-$dbversion.sql $script_dir/initdb-postgres-$dbversion.sql $script_dir/create-apm-tables-postgres-$dbversion.sql $script_dir/create-apm-sequences-postgres-$dbversion.sql $script_dir/add-apm-indexes-postgres-$dbversion.sql $script_dir/add-apm-constraints-postgres-$dbversion.sql $script_dir/apm-defaults-postgres-$dbversion.sql $script_dir/apm-procedures-postgres-$dbversion.sql)
-# removed $script_dir/add-apm-pruning-function-postgres-$dbversion.sql --> not available for 9.6.0.0
+sql_files=( createtables-postgres-$dbversion.sql createsequences-postgres-$dbversion.sql addindexes-postgres-$dbversion.sql addconstraints-postgres-$dbversion.sql addviews-postgres-$dbversion.sql quartz-1.5.1-postgres.sql defaults-postgres-$dbversion.sql initdb-postgres-$dbversion.sql create-apm-tables-postgres-$dbversion.sql create-apm-sequences-postgres-$dbversion.sql add-apm-indexes-postgres-$dbversion.sql add-apm-constraints-postgres-$dbversion.sql apm-defaults-postgres-$dbversion.sql apm-procedures-postgres-$dbversion.sql)
+# removed /add-apm-pruning-function-postgres-$dbversion.sql --> not available for 9.6.0.0
 
 # remove the file if it is already there
 if [ -e $final_script ]
@@ -42,47 +42,34 @@ echo "EOSQL" >> $final_script
 echo "echo" >> $final_script
 echo "echo ... finished" >> $final_script
 
-echo "# read all sql files and add them in a single line in one single postgres execution" >> $final_script
-echo "psql <<EOSQL" >> $final_script
-
-# now it is getting a bit ugly and linux/unix pros can most certainly improve this solution quite a bit. Feedback (with explanation) is always welcome - i am not a bash crack ;). What we need to do is to combine all
-# necessary sql queries in one line (else single execution on postgres is not possible - at least that is what I read, and yes i tried, it is not possible ;)).
-#
-# process
-# - we go over all sql files and first copy the file to a temporary file
-# - we remove the linebreaks (we assume that the file is in linux EOL), else this will NOT work
-# - we remove empty lines
-# - we write the result of each single SQL to another intermediate file
-# - we remove all linebreaks of this intermediate file and push to our final script.
-
-if [ -e /tmp/tempfile ]
-	then
-	rm /tmp/tempfile
-fi
-
-if [ -e /tmp/intermediate ]
-	then
-	rm /tmp/intermediate
-fi
-
+counter=0;
 for i in ${sql_files[@]}; do
-	cp $i /tmp/tempfile
+	let counter=counter+1;
+
+	if [ "$counter" -lt "100" ]
+		then
+			counter_fixed="0"$counter
+	fi
+	if [ "$counter" -lt "10" ]
+		then
+			counter_fixed="00"$counter
+	fi
+	if [ "$counter" -gt "100" ]
+		then
+			counter_fixed=$counter
+	fi
+
+
+	# copy the file to its destination
+	filename="/docker-entrypoint-initdb.d/$counter_fixed-$i"
+	cp scripts/$i $filename
+#	chmod +x $filename
 
 	# remove all SQL comments (-- ....) from the file
-	sed -i '/^\s*--/d' /tmp/tempfile
-
-	# remove cr/lf
-	#sed -i ':a;N;$!ba;s/\n/ /g' /tmp/tempfile
-	#tr -d "\n\r" < /tmp/tempfile
-	echo $(cat /tmp/tempfile) &> /tmp/tempfile
-
+#	sed -i '/^\s*--/d' $filename
 	# remove empty lines
-	sed -i 's/^\s*$//g' /tmp/tempfile
-
-	cat /tmp/tempfile >> /tmp/intermediate
+#	sed -i 's/^\s*$//g' $filename
+	# add psql in the beginning of the file
+#	sed -i '1s/^/psql <<- EOSQL n/' $filename
+#	echo "EOSQL" >> $filename
 done
-
-echo $(cat /tmp/intermediate) >> $final_script
-
-echo "EOSQL" >> $final_script
-echo "echo" >> $final_script
